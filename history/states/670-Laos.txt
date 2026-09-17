@@ -1,0 +1,15 @@
+state = {
+    id = 670
+    name = STATE_670
+    manpower = 1114000
+    state_category = pastoral
+    history = {
+        owner = LAO
+        add_core_of = LAO
+        buildings = {
+            infrastructure = 1
+        }
+    }
+    provinces = { 1362 1390 1520 4260 4539 10195 10238 10326 12332 }
+    local_supplies = 0.0
+}

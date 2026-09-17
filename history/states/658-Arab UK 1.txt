@@ -1,0 +1,25 @@
+state = {
+    id = 658
+    name = STATE_658
+    manpower = 170200
+    resources = {
+        oil = 7
+        aluminium = 3
+    }
+    state_category = pastoral
+    history = {
+        owner = FAE
+        add_core_of = UAE
+        victory_points = { 7960 1 }
+        buildings = {
+            infrastructure = 3
+            7960 = {
+                naval_base = 3
+            }
+            industrial_complex = 2
+            arms_factory = 1
+        }
+    }
+    provinces = { 2048 7960 8108 10904 4932 10791 }
+    local_supplies = 4.0
+}

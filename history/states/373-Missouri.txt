@@ -1,0 +1,24 @@
+state = {
+    id = 373
+    name = STATE_373
+    manpower = 3629365
+    state_category = large_city
+    resources = {
+        aluminium = 12
+        coal = 5
+    }
+    history = {
+        owner = SIO
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 5
+        }
+        add_core_of = USA
+        victory_points = { 4569 10 }
+        victory_points = { 10717 10 }
+        victory_points = { 10370 1 }
+        add_core_of = SIO
+    }
+    provinces = { 1441 1523 1534 1564 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 10717 12346 12361 12463 4567 4597 7586 4625 }
+    local_supplies = 7.0
+}

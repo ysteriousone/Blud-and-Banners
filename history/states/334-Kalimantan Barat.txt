@@ -1,0 +1,28 @@
+state = {
+    id = 334
+    name = STATE_334
+    manpower = 855346
+    resources = {
+        rubber = 30
+        coal = 4
+        oil = 23
+    }
+    state_category = rural
+    history = {
+        owner = BRN
+        add_core_of = POK
+        victory_points = { 4279 1 }
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+            4279 = {
+                naval_base = 1
+            }
+            13298 = {
+                naval_base = 1
+            }
+        }
+    }
+    provinces = { 1304 1316 4279 12129 13298 }
+    local_supplies = 0.0
+}

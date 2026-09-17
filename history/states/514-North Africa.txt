@@ -1,0 +1,24 @@
+state = {
+    id = 514
+    name = STATE_514
+    manpower = 1206000
+    state_category = rural
+    force_link_ownership_to = 513
+    history = {
+        owner = TUA
+        add_core_of = ALG
+        buildings = {
+            infrastructure = 3
+            arms_factory = 1
+            industrial_complex = 4
+        }
+        victory_points = { 1043 10 }
+    }
+    provinces = { 1043 1095 1901 1958 2049 4903 5035 5095 7041 8061 8088 10731 10749 12711 12842 12849 10884 4962 12022 5004 10838 8128 4913 12082 }
+    local_supplies = 0.0
+    resources = {
+        oil = 5
+        steel = 3
+        aluminium = 2
+    }
+}

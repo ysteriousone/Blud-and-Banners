@@ -1,0 +1,22 @@
+state = {
+    id = 369
+    name = STATE_369
+    manpower = 2614588
+    resources = {
+        coal = 56
+    }
+    state_category = city
+    history = {
+        owner = UTI
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 3
+            air_base = 4
+        }
+        add_core_of = USA
+        add_core_of = GLT
+        add_core_of = UTI
+    }
+    provinces = { 1582 4452 4988 6974 7547 9727 12568 12637 12709 }
+    local_supplies = 0.0
+}

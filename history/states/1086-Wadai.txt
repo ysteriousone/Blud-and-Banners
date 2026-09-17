@@ -1,0 +1,15 @@
+state = {
+    id = 1086
+    name = STATE_1086
+    manpower = 3000000
+    state_category = town
+    history = {
+        owner = WAD
+        add_core_of = WAD
+        add_core_of = KAN
+        buildings = {
+            infrastructure = 1
+        }
+    }
+    provinces = { 1473 4902 4978 }
+}

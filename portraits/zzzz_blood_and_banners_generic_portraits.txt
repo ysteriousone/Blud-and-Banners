@@ -1,0 +1,667 @@
+ADE = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+BHC = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+BUR = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+CIR = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+DAK = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+EQU = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+FAE = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+GLT = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+HUR = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+JBL = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+KAN = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+KOK = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+KON = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+MAH = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+MPF = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+NZA = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+SIO = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+TIK = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+TRP = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+TUA = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+USC = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+UTI = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+
+WAD = {
+	army = {
+		male = { "GFX_Portrait_Europe_Generic_land_1" "GFX_Portrait_Europe_Generic_land_2" "GFX_Portrait_Europe_Generic_land_3" }
+	}
+	navy = {
+		male = { "GFX_Portrait_Europe_Generic_navy_1" "GFX_Portrait_Europe_Generic_navy_2" "GFX_Portrait_Europe_Generic_navy_3" }
+	}
+	operative = {
+		male = { "GFX_portrait_operative_unknown" }
+		female = { "GFX_portrait_operative_unknown" }
+	}
+	male = { "GFX_portrait_unknown" }
+	female = { "GFX_portrait_unknown_female" }
+	political = {
+		communism = {
+			male = { "GFX_Portrait_Europe_Generic_1" }
+		}
+		democratic = {
+			male = { "GFX_Portrait_Europe_Generic_2" }
+		}
+		fascism = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+		neutrality = {
+			male = { "GFX_Portrait_Europe_Generic_3" }
+		}
+	}
+}
+

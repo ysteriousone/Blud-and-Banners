@@ -1,0 +1,20 @@
+state = {
+    id = 773
+    name = STATE_773
+    manpower = 2945782
+    state_category = rural
+    history = {
+        owner = DAK
+        add_core_of = CMR
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            air_base = 1
+            6039 = {
+                naval_base = 1
+            }
+        }
+    }
+    provinces = { 6039 7963 9137 11194 }
+    local_supplies = 0.0
+}

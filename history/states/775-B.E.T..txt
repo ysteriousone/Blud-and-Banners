@@ -1,0 +1,18 @@
+state = {
+    id = 775
+    name = STATE_775
+    manpower = 6500000
+    state_category = large_town
+    force_link_ownership_to = 774
+    history = {
+        owner = KAN
+        add_core_of = CHA
+        buildings = {
+            infrastructure = 0
+        }
+        add_core_of = KAN
+    }
+    provinces = { 5136 3123 4897 }
+    buildings_max_level_factor = 1.000
+    local_supplies = 1.0
+}

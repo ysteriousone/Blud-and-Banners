@@ -1,0 +1,16 @@
+state = {
+    id = 273
+    name = STATE_273
+    manpower = 42633
+    state_category = wasteland
+    force_link_ownership_to = 662
+    history = {
+        owner = LBA
+        add_core_of = LBA
+        buildings = {
+            infrastructure = 0
+        }
+    }
+    provinces = { 1057 1060 1140 7985 10104 10754 10785 11951 12866 }
+    local_supplies = 0.0
+}

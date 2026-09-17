@@ -1,0 +1,16 @@
+state = {
+    id = 767
+    name = STATE_767
+    manpower = 8143
+    state_category = wasteland
+    force_link_ownership_to = 551
+    history = {
+        owner = MAH
+        add_core_of = SUD
+        buildings = {
+            infrastructure = 0
+        }
+    }
+    provinces = { 10900 }
+    local_supplies = 0.0
+}

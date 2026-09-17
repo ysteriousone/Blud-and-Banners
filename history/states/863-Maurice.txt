@@ -1,0 +1,20 @@
+state = {
+    id = 863
+    name = STATE_863
+    manpower = 700000
+    state_category = pastoral
+    history = {
+        owner = HUR
+        add_core_of = CAN
+        add_core_of = QUE
+        victory_points = { 12223 1 }
+        buildings = {
+            infrastructure = 2
+        }
+        add_core_of = HUR
+        victory_points = { 12149 3 }
+    }
+    provinces = { 1356 4419 4769 7893 12223 13160 7291 12149 9601 }
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+}

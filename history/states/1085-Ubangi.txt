@@ -1,0 +1,15 @@
+state = {
+    id = 1085
+    name = STATE_1085
+    manpower = 3400001
+    state_category = town
+    history = {
+        owner = NZA
+        add_core_of = NZA
+        add_core_of = WAD
+        buildings = {
+            infrastructure = 1
+        }
+    }
+    provinces = { 5084 12719 }
+}
