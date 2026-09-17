@@ -1,0 +1,84 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            ENG = {
+                set_autonomy = {
+                    target = MAL
+                    autonomy_state = autonomy_free
+                }
+            }
+            HOL = {
+                set_autonomy = {
+                    target = INS
+                    autonomy_state = autonomy_free
+                }
+            }
+            GER = {
+                set_autonomy = {
+                    target = SLO
+                    autonomy_state = autonomy_free
+                }
+            }
+            AUS = {
+                set_autonomy = {
+                    target = ALB
+                    autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = BHC
+                    autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = CZE
+                    autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = MNT
+                    autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = SER
+                    autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+            }
+            ENG = {
+                set_autonomy = {
+                    target = CAN
+                    autonomy_state = autonomy_dominion
+                    freedom_level = 0.4
+                }
+            }
+            GER = {
+                set_autonomy = {
+                    target = UBD
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+            }
+            HUN = {
+                set_autonomy = {
+                    target = ROM
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = SLO
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+            }
+            SOV = {
+                set_autonomy = {
+                    target = KOM
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+            }
+        }
+    }
+}

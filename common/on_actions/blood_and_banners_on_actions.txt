@@ -1,0 +1,17 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            AUS = {
+                create_faction_from_template = austro_hungary_union
+                add_to_faction = AUS
+                add_to_faction = HUN
+                add_to_faction = BHC
+                add_to_faction = ROM
+                add_to_faction = CZE
+                add_to_faction = MNT
+                add_to_faction = SER
+                add_to_faction = SLO
+            }
+        }
+    }
+}
