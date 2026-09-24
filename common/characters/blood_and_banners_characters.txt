@@ -1,0 +1,16 @@
+characters = {
+    emir_khaled_ALG = {
+        name = emir_khaled_ALG
+        portraits = {
+            civilian = {
+                large = GFX_portrait_blood_and_banners_emir_khaled_ALG
+                small = GFX_idea_blood_and_banners_emir_khaled_ALG
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+}

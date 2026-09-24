@@ -6,6 +6,10 @@ on_actions = {
                     target = MAL
                     autonomy_state = autonomy_free
                 }
+                set_autonomy = {
+                    target = BRM
+                    autonomy_state = autonomy_free
+                }
             }
             HOL = {
                 set_autonomy = {
@@ -43,6 +47,28 @@ on_actions = {
                 set_autonomy = {
                     target = SER
                     autonomy_state = autonomy_austro_hungarian_subject
+                    freedom_level = 0
+                }
+            }
+            CHI = {
+                set_autonomy = {
+                    target = BRM
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0.2
+                }
+                set_autonomy = {
+                    target = CAM
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = LAO
+                    autonomy_state = autonomy_puppet
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = VIN
+                    autonomy_state = autonomy_puppet
                     freedom_level = 0
                 }
             }

@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_portrait_blood_and_banners_emir_khaled_ALG
+        texturefile = "gfx/leaders/blood_and_banners/blood_and_banners_emir_khaled_ALG_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_blood_and_banners_emir_khaled_ALG
+        texturefile = "gfx/leaders/blood_and_banners/blood_and_banners_emir_khaled_ALG_small.dds"
+    }
+}

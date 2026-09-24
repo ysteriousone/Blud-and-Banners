@@ -1,4 +1,5 @@
 BLR_1936.txt
+CAM_1936.txt
 CAN_1936.txt
 CAN_1936_nsb.txt
 CZE_1936_mun.txt
@@ -23,6 +24,7 @@ HUN_1939.txt
 HUN_1939_nsb.txt
 INS_1936.txt
 COG_1936.txt
+LAO_1936.txt
 MNT_1936.txt
 ROM_1936.txt
 ROM_1936_nsb.txt
@@ -30,3 +32,4 @@ ROM_1939.txt
 ROM_1939_nsb.txt
 YUG_1936.txt
 YUG_1939.txt
+VIN_1936.txt

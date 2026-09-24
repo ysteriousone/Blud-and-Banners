@@ -3,6 +3,7 @@ set_research_slots = 3
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = emir_khaled_ALG
 
 # Additional starting history effects
 set_technology = {

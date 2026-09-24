@@ -1,45 +1,47 @@
 ADE = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 BHC = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Arturo" "Benito" "Camillo" "Carlo" "Cesare" "Costanzo" "Davide" "Emilio" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando" "Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo" "Lorenzo" "Luigi" "Marco" "Mario" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero" "Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Maria" "Anna" "Sara" "Laura" "Sofia" "Stella" "Angela" "Giovanna" "Guiseppina" "Gianna" "Giulia" "Valentina" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+	surnames = { "Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello" "Caramore" "Caviglia" "Ceccherini" "Cialdini" "Cusani" "Dezza" "di Robilant" "di Savoia" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Giuriato" "Govone" "La Màrmora" "Lussu" "Mambretti" "Menabrea" "Orengo" "Pallavicino" "Pecori-Giraldi" "Pelloux" "Perruchetti" "Pianelli" "Porro" "Presbitero" "Ramorino" "Ricotti-Magnani" "Rigoni" "Sacchi" "Saletta" "Sanna" "Solari" "Stern" "Vaccari" "Zupelli" }
+	callsigns = { "Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce" "Raven" "Two Shot" "Rosso" "Robur" "Gino" "Giri" }
 }
 
 BUR = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
 }
 
 CIR = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
 }
 
 DAK = {
@@ -55,16 +57,27 @@ DAK = {
 
 EQU = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 FAE = {
+	male = {
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
+	}
+	female = {
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
+	}
+}
+
+GLT = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
 	}
@@ -75,7 +88,7 @@ FAE = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
-GLT = {
+GUJ = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
 	}
@@ -99,35 +112,47 @@ HUR = {
 
 JBL = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 KAN = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 KOK = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+KOM = {
+	male = {
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
+	}
+	female = {
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
+	}
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
 }
 
 KON = {
@@ -152,6 +177,17 @@ MAH = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
+MAR = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
 MPF = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
@@ -163,7 +199,63 @@ MPF = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
+MUG = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+NEN = {
+	male = {
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
+	}
+	female = {
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
+	}
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
+}
+
 NZA = {
+	male = {
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
+	}
+	female = {
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
+	}
+}
+
+ORI = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+PRI = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+QIN = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
 	}
@@ -185,48 +277,61 @@ SIO = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
-TIK = {
+SOK = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+TIK = {
+	male = {
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
+	}
+	female = {
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
+	}
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
 }
 
 TRP = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 TUA = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
 USC = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Aleksandr" "Aleksey" "Andrey" "Anton" "Boris" "Dmitry" "Fyodor" "Gennady" "Georgy" "Grigory" "Igor" "Ilya" "Iosif" "Ivan" "Kirill" "Konstantin" "Lavr" "Leonid" "Lev" "Maksim" "Mikhail" "Nikita" "Nikolay" "Noy" "Oleg" "Pavel" "Pyotr" "Roman" "Semyon" "Sergey" "Valery" "Vasily" "Viktor" "Vladimir" "Vladislav" "Yegor" "Yevgeny" "Yury" "Akim" "Aksel" "Anastasy" "Anatoly" "Andrian" "Arkady" "Arseny" "Aslan" "Dzhabir" "Emil" "Feodosy" "Filipp" "Isay" "Ivar" "Izot" "Karl" "Kazimir" "Kuzma" "Lavrenty" "Lazar" "Makary" "Manzakir" "Marat" "Markian" "Martemyan" "Mstislav" "Osher" "Pasha" "Robert" "Sidor" "Slava" "Stepan" "Tikhon" "Timofey" "Tsyrendashi" "Vsevolod" "Vyacheslav" "Yakov" "Yefim" "Zinovy" "Levan" "Tamaz" "Zurab" "Amayak" "Amazasp" "Arno" "Artashes" "Bagrat" "Derenik" "Karapet" "Khoren" "Tarlan" }
+		surnames = { "Akhnazarov" "Akimenko" "Alekseyev" "Antonov" "Azarov" "Badanov" "Brusilov" "Budyonny" "Chibisov" "Denikin" "Dragomirov" "Frolov" "Golivin" "Grishin" "Gurko" "Ivanov" "Ivannikov" "Isayev" "Konev" "Konstantinov" "Kornilov" "Kolchak" "Kuropatkin" "Lazarev" "Makarov" "Maksimov" "Menshikov" "Nakhimov" "Nebogatov" "Nikolayevich" "Nikitin" "Ostrovsky" "Pavlov" "Putyatin" "Romanov" "Rozhestvensky" "Skobelev" "Shuvalov" "Surkov" "Tukhachevsky" "Yan" "Yegorov" "Yudenich" "Vorontsov" "Voroshilov" "Zavoyko" "Abramov" "Abugov" "Abyzov" "Achkasov" "Adriashenko" "Afanasev" "Agafonov" "Akimov" "Alagakov" "Alekhin" "Aleksandrovich" "Aleksandrov" "Almazov" "Anashkin" "Andreyev" "Andrianov" "Apriamov" "Arushanyan" "Arutyunovich" "Asadov" "Babak" "Barkov" "Bondaryov" "Borisovich" "Bulgakov" "Bulgatov" "Bulanenko" "Brezhnev" "Bocharov" "Chernishevsky" "Chernishev" "Chigvintsev" "Chistyakov" "Chuikov" "Danilovich" "Dazhin" "Denishchev" "Dokutovich" "Dorzhiyev" "Filippov" "Fyodorov" "Gabrilov" "Gagarin" "Ganyev" "Gashev" "Golubev" "Grachyov" "Grigorov" "Grishayev" "Gusev" "Ilnitsky" "Kaminsky" "Khalikov" "Kiselyov" "Klubkov" "Koldeyev" "Kondakov" "Korenev" "Koshkin" "Kovshov" "Kuzma" "Kuznetsov" "Larionov" "Lavrentyev" "Lev" "Lidov" "Lisitsyn" "Loginov" "Lukichyov" "Lyubilkin" "Makeyev" "Makhlyagin" "Makoveyev" "Malyutin" "Maresyev" "Markelov" "Matveyevich" "Mazhnov" "Melikhov" "Milko" "Moiseyenko" "Molchanov" "Murakhovets" "Nakaryakov" "Nesterov" "Nikiforov" "Nikolayev" "Nikulin" "Nomokonov" "Novozhilov" "Okunev" "Onilov" "Orlov" "Pakhomkin" "Panchenko" "Panteleyev" "Parfyonov" "Pavlichenko" "Pchelintsev" "Pegeshov" "Petrov" "Popov" "Posazhnikov" "Prokopev" "Pustobriko" "Rabichev" "Radkin" "Rakityansky" "Raskov" "Romanovich" "Romashov" "Rudnev" "Ryasin" "Sagaidak" "Saikin" "Sanfirov" "Selin" "Selyanin" "Serebryakov" "Seryogin" "Shalayev" "Shambarov" "Shatrov" "Shevelyov" "Shilov" "Shlyakhov" "Shmurak" "Shvetsov" "Simonov" "Sokolov" "Solomatin" "Stepanov" "Svetlov" "Tanailov" "Terekhov" "Tinigin" "Tolstoy" "Ulyanenko" "Utkin" "Vashchenko" "Vasilenko" "Vinogradov" "Vladimirsky" "Volkhov" "Yartsev" "Yekimov" "Yermakov" "Yushin" "Zakharov" "Zaytsev" "Zhudin" "Zhukov" "Adamiya" "Aliyev" "Aslanikashvili" "Beriya" "Chiladze" "Dzhugashvili" "Gelashvili" "Giligashvili" "Kapanadze" "Khalvashi" "Kvachantiradze" "Kvaratskhelia" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Babadzhanyan" "Gurgen" "Markosyan" "Akhundov" "Aliyarbekov" "Apresyan" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Afanasiya" "Albina" "Aleksandra" "Anastasiya" "Elena" "Elvira" "Lydia" "Lyudmila" "Margarita" "Muza" "Natalya" "Olga" "Sofiya" "Svetlana" "Valentina" "Yelena" "Alina" "Alevtina" "Aliya" "Anna" "Anya" "Asya" "Dusya" "Galya" "Kaleriya" "Kalya" "Katya" "Klava" "Klavdiya" "Irina" "Lida" "Liza" "Lyuba" "Lyubov" "Marina" "Mariya" "Maryam" "Marusya" "Nadezhda" "Nadya" "Natasha" "Nina" "Nonna" "Polina" "Raisa" "Roza" "Rozaliya" "Serafima" "Tamara" "Tanya" "Taya" "Tonya" "Tosya" "Valya" "Vera" "Yekaterina" "Yepistiniya" "Yevdokiya" "Yevgeniya" "Yuliya" "Zinaida" "Zoya" "Ketevan" "Nana" "Nino" "Tamar" }
+		surnames = { "Abramova" "Abyzova" "Akhnazarova" "Akimenko" "Akimova" "Aleksandrova" "Aleksandrovna" "Almazova" "Anashkina" "Anatolyevna" "Artamonova" "Badanova" "Bakieva" "Barakina" "Barkova" "Bocharova" "Bondaryova" "Bratishcheva" "Bulatova" "Bulgakova" "Chegodayeva" "Chernisheva" "Chibisova" "Chigvintseva" "Chistyakova" "Chuikova" "Fedutenko" "Filippova" "Fyodorova" "Gabrilova" "Gagarina" "Ganyeva" "Gasheva" "Golubeva" "Grachyova" "Grigorova" "Grishayeva" "Grunskaya" "Gulyakina" "Guseva" "Isayeva" "Ivanova" "Kekeshyeva" "Kiselyova" "Klubkova" "Koldeyeva" "Kondakova" "Koreneva" "Korotkevich" "Kosmodemyanskaya" "Kovalenko" "Kovshova" "Kroshchenko" "Kuzmina" "Kuznetsova" "Larionova" "Lavrentyeva" "Lidova" "Loginova" "Lukichyova" "Makeyeva" "Makhlyagina" "Makoveyeva" "Maksimova" "Malyutina" "Maresyeva" "Markelova" "Matokh" "Mazhnova" "Melikhova" "Menshikova" "Milko" "Moiseyenko" "Molchanova" "Moldagulova" "Mulatova" "Murakhovets" "Nakaryakova" "Nakhimova" "Nesterova" "Nikiforova" "Nikiforovna" "Nikoloyeva" "Novozhilova" "Nurmukhambetovna" "Okuneva" "Onilova" "Orlova" "Pakhomkina" "Panchenko" "Panteleyeva" "Parfyonova" "Pavlichenko" "Pavlova" "Pchelintseva" "Pegeshova" "Peredera" "Petrova" "Popova" "Posazhnikova" "Prokopeva" "Pustobrikova" "Rabicheva" "Rachkevich" "Radkina" "Raskova" "Reznichenko" "Rogalskaya" "Romanova" "Romashova" "Rudneva" "Ryasina" "Saikina" "Sanfirova" "Selina" "Selyanina" "Serebryakova" "Shalayeva" "Shambarova" "Shanina" "Shatrova" "Shevelyova" "Shilova" "Shlyakhova" "Shvetsova" "Simonova" "Sokolova" "Stepanova" "Surkova" "Svetlova" "Tanailova" "Terekhova" "Tinigina" "Ulyanenko" "Vashchenko" "Vasilenko" "Vinogradova" "Visnitskaya" "Volkhova" "Vorontsova" "Yartseva" "Yegorova" "Yekimova" "Yermakova" "Yushina" "Zakharova" "Zhukova" "Aliyeva" "Aslanikashvili" "Beriya" "Dzhugashvili" "Gelashvili" "Giligashvili" "Khalvashi" "Kvaratskhelia" "Kapanadze" "Ingorovka" "Lomidze" "Makharashvili" "Tatuashvili" "Tavadze" "Tsereteli" "Pashayeva" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+	callsigns = { "The Colonist" "The Bell" "Heine" "Duma" "Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon" "Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky" "Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka" }
 }
 
 UTI = {
@@ -242,12 +347,12 @@ UTI = {
 
 WAD = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil" "Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Ja'far" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa" "Nur al-Din" "Sa'd al-Din" "Salim" "Sa'ud" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir" }
+		surnames = { "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla" "Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa" "Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara" "Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah" "Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab" }
+		surnames = { "bint Abd Allah" "bint Abd al-Qadir" "bint Abu Bakr" "bint Ahmad" "bint Ali" "bint Fuad" "bint Halil" "bint Hasan" "bint Hisham" "bint Ishaq" "bint Ja'far" "ibm Kamil" "bint Khalid" "bint Muhammad" "bint Mustafa" "bint Salim" "bint Umar" "bint Uthman" "bint Yusuf" "al-Najdi" "al-Hijazi" }
 	}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 

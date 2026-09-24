@@ -1,6 +1,11 @@
-# HMB startup compatibility for a newly activated inherited country.
 capital = 670
 set_research_slots = 3
+set_convoys = 0
+set_stability = 0.5
+set_war_support = 0.5
+
+# Additional starting history effects
+oob = LAO_1936
 set_technology = {
     infantry_weapons = 1
     infantry_weapons1 = 1
@@ -88,11 +93,20 @@ if = {
         basic_torpedo = 1
     }
 }
-set_popularities = {
-    democratic = 25
-    communism = 35
-    neutrality = 40
-}
 recruit_character = LAO_sisavang_vong
 recruit_character = LAO_kou_voravong
 recruit_character = LAO_souphanouvong
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    democratic = 25
+    fascism = 0
+    communism = 35
+    neutrality = 40
+}

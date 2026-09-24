@@ -12,6 +12,11 @@ on_actions = {
                 add_to_faction = SER
                 add_to_faction = SLO
             }
+            CHI = {
+                create_faction_from_template = nanjing_bloc
+                add_to_faction = CHI
+                add_to_faction = SIA
+            }
         }
     }
 }

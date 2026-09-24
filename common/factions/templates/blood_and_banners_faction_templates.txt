@@ -7,3 +7,9 @@ austro_hungary_union = {
     color = { 255 255 255 }
 }
 
+nanjing_bloc = {
+    name = nanjing_bloc
+    icon = GFX_faction_logo_generic
+    manifest = faction_manifest_regional_expansionism
+}
+
