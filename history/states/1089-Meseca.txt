@@ -1,0 +1,23 @@
+state = {
+    id = 1089
+    name = STATE_1089
+    manpower = 2110000
+    state_category = town
+    history = {
+        owner = MSA
+        add_core_of = MSA
+        victory_points = { 4975 1 }
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 3
+            anti_air_building = 2
+            air_base = 3
+        }
+    }
+    provinces = { 1738 2055 2102 3972 4975 9908 10867 12624 12684 12893 }
+    resources = {
+        steel = 4
+        tungsten = 2
+    }
+}

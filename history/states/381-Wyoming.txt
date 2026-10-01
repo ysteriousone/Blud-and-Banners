@@ -7,12 +7,14 @@ state = {
     }
     state_category = rural
     history = {
-        owner = USA
+        owner = BFC
         buildings = {
             infrastructure = 2
         }
         add_core_of = USA
+        add_core_of = BFC
+        victory_points = { 1815 1 }
     }
-    provinces = { 1815 4610 7688 7814 7888 10640 10711 12561 12633 12651 }
+    provinces = { 1815 4610 7814 12651 }
     local_supplies = 0.0
 }

@@ -4,7 +4,7 @@ state = {
     manpower = 692849
     state_category = rural
     history = {
-        owner = SIO
+        owner = BFC
         buildings = {
             infrastructure = 2
             industrial_complex = 1
@@ -12,7 +12,8 @@ state = {
         add_core_of = USA
         victory_points = { 1747 1 }
         add_core_of = SIO
+        add_core_of = BFC
     }
-    provinces = { 1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 4820 10587 }
+    provinces = { 1747 1875 3750 4839 7745 7771 4820 10587 }
     local_supplies = 0.0
 }

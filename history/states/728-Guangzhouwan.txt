@@ -7,7 +7,7 @@ state = {
     }
     state_category = enclave
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = CHI
         add_core_of = PRC
         victory_points = { 11981 1 }
@@ -17,6 +17,7 @@ state = {
                 naval_base = 1
             }
         }
+        add_core_of = MIN
     }
     provinces = { 11981 }
     local_supplies = 0.0

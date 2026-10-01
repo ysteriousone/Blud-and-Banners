@@ -9,7 +9,7 @@ state = {
         chromium = 3
     }
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = GXC
         1936.1.1 = {
             IF = {
@@ -35,6 +35,7 @@ state = {
         victory_points = { 12077 1 }
         1938.10.25 = {
         }
+        add_core_of = MIN
     }
     provinces = { 1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 }
     local_supplies = 1.0

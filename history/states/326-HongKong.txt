@@ -4,7 +4,7 @@ state = {
     manpower = 1143516
     state_category = large_town
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = CHI
         add_core_of = PRC
         victory_points = { 10062 3 }
@@ -16,6 +16,7 @@ state = {
                 coastal_bunker = 1
             }
         }
+        add_core_of = MIN
     }
     provinces = { 10062 }
     local_supplies = 0.0

@@ -1,0 +1,20 @@
+state = {
+    id = 1095
+    name = STATE_1095
+    manpower = 4102001
+    state_category = large_town
+    history = {
+        owner = BFC
+        add_core_of = BFC
+        victory_points = { 1767 1 }
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 2
+        }
+    }
+    provinces = { 1767 4759 6722 7877 7883 10706 12566 12603 }
+    resources = {
+        aluminium = 8
+        coal = 3
+    }
+}

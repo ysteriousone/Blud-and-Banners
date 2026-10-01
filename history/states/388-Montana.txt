@@ -8,13 +8,14 @@ state = {
         coal = 7
     }
     history = {
-        owner = USA
+        owner = BFC
         add_core_of = USA
         buildings = {
             infrastructure = 2
         }
         victory_points = { 4860 1 }
+        add_core_of = BFC
     }
-    provinces = { 1736 1851 1854 1857 4741 4838 4857 4860 4863 6742 7760 7779 7880 10593 10624 11712 12572 12585 12676 }
+    provinces = { 1851 1854 1857 4741 4857 4860 4863 7760 7880 10593 10624 11712 12572 12585 1262 7718 10552 3769 }
     local_supplies = 0.0
 }

@@ -6,7 +6,7 @@ state = {
     resources = {
     }
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = GXC
         1936.1.1 = {
             IF = {
@@ -28,6 +28,7 @@ state = {
         victory_points = { 10004 1 }
         1938.10.25 = {
         }
+        add_core_of = MIN
     }
     provinces = { 1018 4023 4160 7135 7192 10004 10105 11926 }
     local_supplies = 1.0

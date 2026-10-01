@@ -25,7 +25,6 @@ state = {
         }
         victory_points = { 10372 1 }
         victory_points = { 12448 1 }
-        add_core_of = MON
     }
     provinces = { 1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 12348 12448 12554 }
     local_supplies = 0.0

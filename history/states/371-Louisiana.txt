@@ -7,7 +7,7 @@ state = {
         oil = 29
     }
     history = {
-        owner = UTI
+        owner = CHE
         buildings = {
             infrastructure = 3
             industrial_complex = 2
@@ -19,7 +19,8 @@ state = {
         add_core_of = USA
         victory_points = { 7552 10 }
         add_core_of = UTI
+        add_core_of = CHE
     }
-    provinces = { 1453 1559 1643 4507 4535 7524 7552 7555 7599 12398 }
+    provinces = { 1453 4535 7524 7552 12398 }
     local_supplies = 0.0
 }

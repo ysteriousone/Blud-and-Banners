@@ -1,0 +1,24 @@
+state = {
+    id = 1087
+    name = STATE_1087
+    manpower = 480941
+    state_category = large_town
+    history = {
+        owner = WIC
+        add_core_of = WIC
+        victory_points = { 3960 10 }
+        buildings = {
+            industrial_complex = 1
+            arms_factory = 1
+            infrastructure = 3
+            2082 = {
+                supply_node = 1
+            }
+        }
+    }
+    provinces = { 2082 3960 4577 5001 6968 7945 8025 9829 10778 }
+    resources = {
+        aluminium = 2
+        coal = 4
+    }
+}

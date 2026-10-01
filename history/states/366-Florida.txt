@@ -4,7 +4,7 @@ state = {
     manpower = 1468210
     state_category = city
     history = {
-        owner = UTI
+        owner = SEM
         buildings = {
             infrastructure = 2
             industrial_complex = 3
@@ -18,14 +18,12 @@ state = {
             7388 = {
                 naval_base = 3
             }
-            10352 = {
-                naval_base = 1
-            }
         }
         add_core_of = USA
         victory_points = { 1843 5 }
         add_core_of = UTI
+        add_core_of = SEM
     }
-    provinces = { 866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 }
+    provinces = { 866 1556 1572 1584 1843 1913 7388 9834 10407 10489 12353 12381 12439 12752 1433 12325 12498 12470 1480 10492 7612 10437 }
     local_supplies = 10.0
 }

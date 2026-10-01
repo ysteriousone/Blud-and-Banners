@@ -1,0 +1,20 @@
+state = {
+    id = 1092
+    name = STATE_1092
+    manpower = 3501002
+    state_category = town
+    history = {
+        owner = COM
+        add_core_of = COM
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 2
+            arms_factory = 3
+        }
+    }
+    provinces = { 1998 4955 5038 8064 10894 12720 12728 }
+    resources = {
+        coal = 2
+        aluminium = 2
+    }
+}

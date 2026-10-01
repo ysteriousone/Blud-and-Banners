@@ -22,8 +22,7 @@ state = {
         }
         victory_points = { 7834 1 }
         add_core_of = SIO
-        victory_points = { 1806 1 }
     }
-    provinces = { 1352 1753 4757 4811 4814 4871 7834 7892 9802 10532 12024 12513 2043 1806 12570 }
+    provinces = { 1352 4757 7834 7892 12513 }
     local_supplies = 0.0
 }

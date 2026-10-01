@@ -20,7 +20,6 @@ state = {
             industrial_complex = 1
         }
         victory_points = { 10397 2 }
-        add_core_of = MON
     }
     provinces = { 828 952 1489 4495 4612 7545 7674 10397 11752 13379 }
     local_supplies = 0.0

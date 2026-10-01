@@ -5,7 +5,7 @@ state = {
         steel = 4
     }
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = CHI
         add_core_of = PRC
         buildings = {
@@ -36,7 +36,7 @@ state = {
                 arms_factory = 1
             }
         }
-        add_core_of = SIC
+        add_core_of = MIN
     }
     provinces = { 1367 1395 4925 8026 10132 12141 12767 12819 }
     manpower = 5448874

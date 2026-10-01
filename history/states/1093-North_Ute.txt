@@ -1,0 +1,20 @@
+state = {
+    id = 1093
+    name = STATE_1093
+    manpower = 6400003
+    state_category = city
+    history = {
+        owner = UTE
+        add_core_of = UTE
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 4
+            arms_factory = 2
+        }
+    }
+    provinces = { 7688 7888 10640 10711 12561 12633 }
+    resources = {
+        aluminium = 16
+        oil = 7
+    }
+}

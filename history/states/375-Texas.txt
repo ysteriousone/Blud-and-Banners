@@ -1,31 +1,35 @@
 state = {
     id = 375
     name = STATE_375
-    manpower = 5824712
+    manpower = 10824712
     state_category = metropolis
     resources = {
-        oil = 210
-        aluminium = 50
-        coal = 11
+        oil = 218
+        aluminium = 52
+        coal = 18
+        steel = 35
     }
     history = {
-        owner = USA
+        owner = CAD
         buildings = {
-            infrastructure = 3
-            industrial_complex = 9
-            air_base = 3
+            infrastructure = 5
+            industrial_complex = 12
+            air_base = 6
             10337 = {
-                naval_base = 3
+                naval_base = 5
             }
             6785 = {
-                naval_base = 1
+                naval_base = 2
             }
+            arms_factory = 6
         }
         add_core_of = USA
         victory_points = { 10337 10 }
-        victory_points = { 3960 10 }
         victory_points = { 12782 1 }
+        victory_points = { 5015 5 }
+        victory_points = { 10769 5 }
+        victory_points = { 12811 1 }
     }
-    provinces = { 805 1500 1915 1927 1954 1998 2019 2042 2055 2082 3875 3960 3972 4577 4884 4955 5001 5022 5038 5061 5085 6785 6798 6968 6987 7628 7836 7981 8064 9773 9829 9908 9920 10337 10504 10740 10778 10861 10894 12301 12341 12369 12410 12486 12728 12782 12848 12875 12893 4522 12401 1528 12313 }
+    provinces = { 805 1500 1927 2019 2042 4884 5022 5061 6785 6798 6987 7628 10337 10504 10861 12341 12369 12410 12486 12782 12811 10769 2060 5015 1528 12313 1643 4507 }
     local_supplies = 9.0
 }

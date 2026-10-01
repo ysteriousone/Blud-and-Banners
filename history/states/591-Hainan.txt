@@ -4,7 +4,7 @@ state = {
     manpower = 3480000
     state_category = town
     history = {
-        owner = CHI
+        owner = MIN
         add_core_of = GXC
         1936.1.1 = {
             IF = {
@@ -26,6 +26,7 @@ state = {
         }
         1938.10.25 = {
         }
+        add_core_of = MIN
     }
     provinces = { 994 1038 1070 11963 11990 }
     local_supplies = 1.0

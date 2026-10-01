@@ -1,0 +1,25 @@
+state = {
+    id = 1088
+    name = STATE_1088
+    manpower = 332007
+    state_category = rural
+    history = {
+        owner = OSA
+        add_core_of = OSA
+        victory_points = { 1806 1 }
+        buildings = {
+            industrial_complex = 1
+            arms_factory = 1
+            1534 = {
+                supply_node = 1
+            }
+            infrastructure = 3
+        }
+    }
+    provinces = { 1534 1806 2043 4567 4811 9802 }
+    resources = {
+        chromium = 1
+        aluminium = 2
+        coal = 5
+    }
+}

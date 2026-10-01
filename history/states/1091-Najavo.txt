@@ -1,0 +1,21 @@
+state = {
+    id = 1091
+    name = STATE_1091
+    manpower = 6502201
+    state_category = large_town
+    history = {
+        owner = NAJ
+        add_core_of = NAJ
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 4
+            arms_factory = 3
+        }
+    }
+    provinces = { 868 7684 7764 7818 7999 9792 10573 10642 10645 12552 12627 }
+    resources = {
+        aluminium = 28
+        coal = 14
+        steel = 17
+    }
+}

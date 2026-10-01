@@ -24,7 +24,6 @@ state = {
                 level = 1
             }
         }
-        add_core_of = MON
     }
     provinces = { 2087 4525 7158 7631 10424 10629 12403 12609 12880 }
     buildings_max_level_factor = 1.000

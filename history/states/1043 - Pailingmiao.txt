@@ -17,7 +17,6 @@ state = {
             industrial_complex = 1
         }
         victory_points = { 12331 1 }
-        add_core_of = MON
     }
     provinces = { 7048 12331 }
     buildings_max_level_factor = 1.000

@@ -7,7 +7,7 @@ state = {
     }
     state_category = city
     history = {
-        owner = UTI
+        owner = CHE
         buildings = {
             infrastructure = 3
             industrial_complex = 3
@@ -24,7 +24,8 @@ state = {
             }
         }
         add_core_of = UTI
+        add_core_of = CHE
     }
-    provinces = { 492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 }
+    provinces = { 492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 10352 10380 }
     local_supplies = 0.0
 }
