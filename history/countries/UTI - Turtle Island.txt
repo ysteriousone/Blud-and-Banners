@@ -3,6 +3,8 @@ set_research_slots = 3
 set_convoys = 0
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = desakeh_UTI
+promote_character = desakeh_UTI
 
 # Politics selected in the builder
 set_politics = {

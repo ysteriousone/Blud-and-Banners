@@ -6,6 +6,7 @@ state = {
     history = {
         owner = NAJ
         add_core_of = NAJ
+        victory_points = { 9792 1 }
         buildings = {
             infrastructure = 4
             industrial_complex = 4

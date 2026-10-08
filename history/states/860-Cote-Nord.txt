@@ -11,6 +11,7 @@ state = {
             infrastructure = 1
         }
         add_core_of = HUR
+        victory_points = { 7683 5 }
     }
     provinces = { 7683 7807 10534 10715 13293 }
     buildings_max_level_factor = 1.000

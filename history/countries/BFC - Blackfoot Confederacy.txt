@@ -1,8 +1,10 @@
-capital = 381
+capital = 390
 set_research_slots = 3
 set_convoys = 0
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = chief_shot_GLT
+promote_character = chief_shot_GLT
 
 # Politics selected in the builder
 set_politics = {

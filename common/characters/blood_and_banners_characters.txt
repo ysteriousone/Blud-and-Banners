@@ -1,0 +1,30 @@
+characters = {
+    desakeh_UTI = {
+        name = desakeh_UTI
+        portraits = {
+            civilian = {
+                large = GFX_portrait_blood_and_banners_desakeh_UTI
+                small = GFX_idea_blood_and_banners_desakeh_UTI
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    chief_shot_GLT = {
+        name = chief_shot_GLT
+        portraits = {
+            civilian = {
+                large = GFX_portrait_blood_and_banners_chief_shot_GLT
+                small = GFX_idea_blood_and_banners_chief_shot_GLT
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+}

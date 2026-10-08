@@ -15,6 +15,7 @@ state = {
         }
         add_core_of = USA
         add_core_of = UTE
+        victory_points = { 1658 10 }
     }
     provinces = { 1658 3869 6887 10535 4668 1756 }
     local_supplies = 8.0

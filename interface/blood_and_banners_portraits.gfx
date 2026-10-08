@@ -1,10 +1,18 @@
 spriteTypes = {
     spriteType = {
-        name = GFX_portrait_blood_and_banners_emir_khaled_ALG
-        texturefile = "gfx/leaders/blood_and_banners/blood_and_banners_emir_khaled_ALG_large.dds"
+        name = GFX_portrait_blood_and_banners_desakeh_UTI
+        texturefile = "gfx/leaders/UTI/blood_and_banners_desakeh_UTI_large.dds"
     }
     spriteType = {
-        name = GFX_idea_blood_and_banners_emir_khaled_ALG
-        texturefile = "gfx/leaders/blood_and_banners/blood_and_banners_emir_khaled_ALG_small.dds"
+        name = GFX_idea_blood_and_banners_desakeh_UTI
+        texturefile = "gfx/leaders/UTI/blood_and_banners_desakeh_UTI_small.dds"
+    }
+    spriteType = {
+        name = GFX_portrait_blood_and_banners_chief_shot_GLT
+        texturefile = "gfx/leaders/BFC/blood_and_banners_chief_shot_GLT_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_blood_and_banners_chief_shot_GLT
+        texturefile = "gfx/leaders/BFC/blood_and_banners_chief_shot_GLT_small.dds"
     }
 }

@@ -88,10 +88,10 @@ CIR = {
 
 COM = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+		names = { "•" "Degataga" "Gawonii" "Conocotocko" "Hashké" "Adohi" "Oconostota" "Enoli" "Atsadi" }
 	}
 	female = {
-		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+		names = { "•" "Ahyoka" "Walela" "Shandiin" "Dezba" "Nizhoni" "Anaba" }
 	}
 	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }

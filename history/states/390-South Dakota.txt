@@ -10,7 +10,7 @@ state = {
             industrial_complex = 1
         }
         add_core_of = USA
-        victory_points = { 1747 1 }
+        victory_points = { 1747 10 }
         add_core_of = SIO
         add_core_of = BFC
     }
