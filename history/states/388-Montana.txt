@@ -1,7 +1,7 @@
 state = {
     id = 388
     name = STATE_388
-    manpower = 537605
+    manpower = 937605
     state_category = rural
     resources = {
         tungsten = 11
@@ -12,6 +12,7 @@ state = {
         add_core_of = USA
         buildings = {
             infrastructure = 2
+            arms_factory = 3
         }
         victory_points = { 4860 1 }
         add_core_of = BFC

@@ -1,0 +1,160 @@
+division_template = {
+    name = "Infantry Division"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Mobile Division"
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+    }
+    support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Cavalry Division"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+        cavalry = { x = 1 y = 3 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+    priority = 1
+}
+
+units = {
+    division = {
+        name = "1st Infantry Division"
+        location = 1747
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Infantry Division"
+        location = 1747
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Infantry Division"
+        location = 4860
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Infantry Division"
+        location = 4860
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "5th Infantry Division"
+        location = 1767
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "6th Infantry Division"
+        location = 1767
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "7th Infantry Division"
+        location = 1815
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "8th Infantry Division"
+        location = 1815
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "9th Infantry Division"
+        location = 12603
+        division_template = "Infantry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Cavalry Division"
+        location = 12585
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Cavalry Division"
+        location = 7745
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Cavalry Division"
+        location = 7880
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Cavalry Division"
+        location = 4863
+        division_template = "Cavalry Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Mobile Infantry Division"
+        location = 7880
+        division_template = "Mobile Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Mobile Infantry Division"
+        location = 1815
+        division_template = "Mobile Division"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Mobile Infantry Division"
+        location = 4794
+        division_template = "Mobile Division"
+        start_experience_factor = 0.4
+    }
+}
+

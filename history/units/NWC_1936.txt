@@ -1,0 +1,201 @@
+division_template = {
+    name = "Native Infantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Native Mobile Infantry"
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+    }
+    support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Military Police"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    }
+    support = {
+        military_police = { x = 0 y = 0 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Native Cavalry"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+        cavalry = { x = 2 y = 0 }
+        cavalry = { x = 2 y = 1 }
+        cavalry = { x = 2 y = 2 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+    }
+    priority = 1
+}
+
+units = {
+    division = {
+        name = "1st Native Infantry"
+        location = 6890
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Native Infantry"
+        location = 6890
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Native Infantry"
+        location = 6710
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Native Infantry"
+        location = 9450
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "5th Native Infantry"
+        location = 3775
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "6th Native Infantry"
+        location = 3778
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "7th Native Infantry"
+        location = 6855
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "8th Native Infantry"
+        location = 1595
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "9th Native Infantry"
+        location = 6890
+        division_template = "Native Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Cavalry"
+        location = 6855
+        division_template = "Native Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Cavalry"
+        location = 720
+        division_template = "Native Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Cavalry"
+        location = 6510
+        division_template = "Native Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Cavalry"
+        location = 6855
+        division_template = "Native Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Motorized"
+        location = 3775
+        division_template = "Native Mobile Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Motorized"
+        location = 12357
+        division_template = "Native Mobile Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Motorized"
+        location = 1595
+        division_template = "Native Mobile Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Police"
+        location = 6890
+        division_template = "Military Police"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Police"
+        location = 6710
+        division_template = "Military Police"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Police"
+        location = 9450
+        division_template = "Military Police"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Police"
+        location = 3778
+        division_template = "Military Police"
+        start_experience_factor = 0.4
+    }
+}
+

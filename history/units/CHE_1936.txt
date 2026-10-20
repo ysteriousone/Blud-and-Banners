@@ -1,0 +1,108 @@
+division_template = {
+    name = "Cherokee Infantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Cherokee Cavalry"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+        cavalry = { x = 1 y = 3 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Cherokee Warriors"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+    priority = 1
+}
+
+units = {
+    division = {
+        name = "1st Cherokee"
+        location = 12384
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "2nd Cherokee"
+        location = 12384
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "3rd Cherokee"
+        location = 12384
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "4th Cherokee"
+        location = 7552
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "5th Cherokee"
+        location = 7552
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "6th Cherokee"
+        location = 12501
+        division_template = "Cherokee Infantry"
+        start_experience_factor = 0.5
+    }
+    division = {
+        name = "1st Cherokee Cavalry"
+        location = 12501
+        division_template = "Cherokee Cavalry"
+    }
+    division = {
+        name = "2nd Cherokee Cavalry"
+        location = 12501
+        division_template = "Cherokee Cavalry"
+    }
+    division = {
+        name = "Cherokee Militia"
+        location = 10753
+        division_template = "Cherokee Warriors"
+    }
+}
+

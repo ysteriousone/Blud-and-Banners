@@ -1,13 +1,13 @@
 state = {
     id = 390
     name = STATE_390
-    manpower = 692849
+    manpower = 1892849
     state_category = rural
     history = {
         owner = BFC
         buildings = {
             infrastructure = 2
-            industrial_complex = 1
+            industrial_complex = 3
         }
         add_core_of = USA
         victory_points = { 1747 10 }

@@ -20,6 +20,7 @@ state = {
                 industrial_complex = 3
             }
         }
+        add_core_of = MSA
         victory_points = { 4740 3 }
     }
     provinces = { 1618 4919 5103 6803 7762 7904 9822 10702 10798 11743 11802 4586 10340 4740 }

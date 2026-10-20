@@ -1,7 +1,7 @@
 state = {
     id = 366
     name = STATE_366
-    manpower = 1468210
+    manpower = 2468210
     state_category = city
     history = {
         owner = SEM
@@ -19,9 +19,7 @@ state = {
                 naval_base = 3
             }
         }
-        add_core_of = USA
         victory_points = { 1843 5 }
-        add_core_of = UTI
         add_core_of = SEM
     }
     provinces = { 866 1556 1572 1584 1843 1913 7388 9834 10407 10489 12353 12381 12439 12752 1433 12325 12498 12470 1480 10492 7612 10437 }

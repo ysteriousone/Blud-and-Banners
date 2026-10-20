@@ -15,6 +15,7 @@ state = {
             industrial_complex = 4
         }
         add_core_of = USA
+        add_core_of = APA
         victory_points = { 8097 10 }
     }
     provinces = { 1972 3867 3883 5044 8070 10914 12791 10740 8097 10809 4796 7920 7747 6897 }

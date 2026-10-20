@@ -14,7 +14,7 @@ state = {
             air_base = 4
         }
         add_core_of = USA
-        add_core_of = GLT
+        add_core_of = NWC
         add_core_of = UTI
     }
     provinces = { 1582 4452 7547 9727 12568 12637 12709 }

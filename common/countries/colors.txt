@@ -1287,7 +1287,7 @@ UBD = {
     color_ui = rgb { 92 92 138 }
 }
 
-GLT = {
+NWC = {
     color = rgb { 160 86 56 }
     color_ui = rgb { 160 86 56 }
 }

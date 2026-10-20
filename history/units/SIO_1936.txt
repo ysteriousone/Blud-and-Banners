@@ -1,0 +1,162 @@
+division_template = {
+    name = "Sioux Infantry"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        infantry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+        recon = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Sioux Motorized Infantry"
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+        motorized = { x = 2 y = 2 }
+    }
+    support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+division_template = {
+    name = "Sioux Cavalry"
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+        cavalry = { x = 2 y = 0 }
+        cavalry = { x = 2 y = 1 }
+        cavalry = { x = 2 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+        field_hospital = { x = 0 y = 2 }
+    }
+    priority = 1
+}
+
+units = {
+    division = {
+        name = "1st Infantry Division"
+        location = 4569
+        division_template = "Sioux Infantry"
+        start_experience_factor = 1
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 4569
+        division_template = "Sioux Infantry"
+        start_experience_factor = 1
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 10717
+        division_template = "Sioux Infantry"
+        start_experience_factor = 1
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 10370
+        division_template = "Sioux Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 12489
+        division_template = "Sioux Infantry"
+        start_experience_factor = 1
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 7834
+        division_template = "Sioux Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 4569
+        division_template = "Sioux Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Infantry Division"
+        location = 1770
+        division_template = "Sioux Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Motorized"
+        location = 1866
+        division_template = "Sioux Motorized Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Motorized"
+        location = 1836
+        division_template = "Sioux Motorized Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Motorized"
+        location = 4872
+        division_template = "Sioux Motorized Infantry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "1st Cavalry"
+        location = 12688
+        division_template = "Sioux Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "2nd Cavalry"
+        location = 3719
+        division_template = "Sioux Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "3rd Cavalry"
+        location = 12577
+        division_template = "Sioux Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "4th Cavalry"
+        location = 9892
+        division_template = "Sioux Cavalry"
+        start_experience_factor = 0.4
+    }
+    division = {
+        name = "5th Cavalry"
+        location = 7586
+        division_template = "Sioux Cavalry"
+        start_experience_factor = 0.4
+    }
+}
+

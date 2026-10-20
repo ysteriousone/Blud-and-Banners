@@ -3744,9 +3744,14 @@
       "LastElection": "1936.1.1",
       "Stability": 50,
       "WarSupport": 50,
-      "ResearchSlots": 3,
-      "Convoys": 0,
-      "StartingTechnologies": [],
+      "ResearchSlots": 4,
+      "Convoys": 300,
+      "StartingTechnologies": [
+        "tech_support",
+        "basic_machine_tools",
+        "construction1",
+        "tech_recon"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -4850,10 +4855,10 @@
       }
     },
     {
-      "Tag": "GLT",
-      "Name": "Great Lakes Tribes",
-      "DefiniteName": "the Great Lakes Tribes",
-      "Adjective": "Native Laker",
+      "Tag": "NWC",
+      "Name": "Northwestern Confederacy",
+      "DefiniteName": "the Northwestern Confederacy",
+      "Adjective": "Northwesterner American",
       "Red": 160,
       "Green": 86,
       "Blue": 56,
@@ -4870,7 +4875,7 @@
       "FlagVariants": [
         {
           "Id": "15d1918708e04f2ca08ebd3687fc63bd",
-          "Name": "GLT",
+          "Name": "NWC",
           "Target": "default",
           "TargetId": "",
           "ArtworkSource": "",
@@ -4918,7 +4923,11 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "infantry_weapons1",
+        "infantry_weapons",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -5003,7 +5012,11 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "infantry_weapons1",
+        "tech_recon",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7457,7 +7470,9 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7542,7 +7557,9 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7627,7 +7644,11 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "infantry_weapons",
+        "infantry_weapons1",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7712,7 +7733,10 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support",
+        "infantry_weapons1"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7797,7 +7821,9 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7882,7 +7908,9 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -7967,7 +7995,9 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8052,7 +8082,11 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "infantry_weapons1",
+        "tech_recon",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8137,7 +8171,12 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support",
+        "infantry_weapons1",
+        "basic_machine_tools",
+        "tech_recon"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8222,7 +8261,10 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_support",
+        "infantry_weapons1"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8307,7 +8349,13 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "basic_machine_tools",
+        "infantry_weapons1",
+        "infantry_weapons",
+        "tech_recon",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8392,7 +8440,11 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "infantry_weapons",
+        "tech_recon",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8477,7 +8529,12 @@
       "WarSupport": 50,
       "ResearchSlots": 3,
       "Convoys": 0,
-      "StartingTechnologies": [],
+      "StartingTechnologies": [
+        "tech_recon",
+        "infantry_weapons",
+        "basic_machine_tools",
+        "tech_support"
+      ],
       "StartingLaws": [],
       "StartingEquipmentStockpile": [],
       "StartingHistoryEffects": "",
@@ -8495,6 +8552,7 @@
     }
   ],
   "Ideas": [],
+  "NationalSpiritFiles": [],
   "Events": [],
   "EventGroups": [],
   "SuperEvents": [],
@@ -9405,13 +9463,3183 @@
   "DynamicModifiers": [],
   "CountryLeaderTraits": [],
   "UnitLeaderTraits": [],
-  "OrdersOfBattle": [],
+  "OrdersOfBattle": [
+    {
+      "CountryTag": "UTI",
+      "FileId": "UTI_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Native Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Native Cavalry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 3957,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "2nd Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 3957,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "3rd Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 3957,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "4th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 788,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "5th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 685,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "6th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6732,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "7th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6845,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "8th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 7361,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "1st Native Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 7588,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.2
+        },
+        {
+          "Name": "2nd Native Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 11800,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.20
+        },
+        {
+          "Name": "3rd Native Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 3878,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.20
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "CRE",
+      "FileId": "CRE_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Creek Fighters",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Creek Cavalry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "Creek Guard",
+          "TemplateName": "Creek Fighters",
+          "Location": 7138,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.7
+        },
+        {
+          "Name": "1st Fighters",
+          "TemplateName": "Creek Fighters",
+          "Location": 7202,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.50
+        },
+        {
+          "Name": "1st Creek Cavalry",
+          "TemplateName": "Creek Cavalry",
+          "Location": 7012,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "SEM",
+      "FileId": "SEM_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Seminole Fighters",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "Seminole Chief Fighters",
+          "TemplateName": "Seminole Fighters",
+          "Location": 1843,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "1st Seminole Fighters",
+          "TemplateName": "Seminole Fighters",
+          "Location": 1843,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "2nd Seminole Fighters",
+          "TemplateName": "Seminole Fighters",
+          "Location": 12470,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "CHE",
+      "FileId": "CHE_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Cherokee Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cherokee Cavalry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 3,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 3,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cherokee Warriors",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 12384,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "2nd Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 12384,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "3rd Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 12384,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "4th Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 7552,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "5th Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 7552,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "6th Cherokee",
+          "TemplateName": "Cherokee Infantry",
+          "Location": 12501,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.5
+        },
+        {
+          "Name": "1st Cherokee Cavalry",
+          "TemplateName": "Cherokee Cavalry",
+          "Location": 12501,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0
+        },
+        {
+          "Name": "2nd Cherokee Cavalry",
+          "TemplateName": "Cherokee Cavalry",
+          "Location": 12501,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0
+        },
+        {
+          "Name": "Cherokee Militia",
+          "TemplateName": "Cherokee Warriors",
+          "Location": 10753,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "NWC",
+      "FileId": "NWC_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Native Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Native Mobile Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "mot_recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Military Police",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "military_police",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Native Cavalry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6890,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6890,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6710,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 9450,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 3775,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "6th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 3778,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "7th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6855,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "8th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 1595,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "9th Native Infantry",
+          "TemplateName": "Native Infantry",
+          "Location": 6696,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 6855,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 720,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 6510,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Cavalry",
+          "TemplateName": "Native Cavalry",
+          "Location": 6855,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Motorized",
+          "TemplateName": "Native Mobile Infantry",
+          "Location": 3775,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Motorized",
+          "TemplateName": "Native Mobile Infantry",
+          "Location": 12357,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Motorized",
+          "TemplateName": "Native Mobile Infantry",
+          "Location": 1595,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Police",
+          "TemplateName": "Military Police",
+          "Location": 6890,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Police",
+          "TemplateName": "Military Police",
+          "Location": 6710,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Police",
+          "TemplateName": "Military Police",
+          "Location": 9450,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "4th Police",
+          "TemplateName": "Military Police",
+          "Location": 3778,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "SIO",
+      "FileId": "SIO_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Sioux Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Sioux Motorized Infantry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "mot_recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Sioux Cavalry",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "field_hospital",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 4569,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 1
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 4569,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 1
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 10717,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 1
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 10370,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 12489,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 1
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 7834,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 12586,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Sioux Infantry",
+          "Location": 1770,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Motorized",
+          "TemplateName": "Sioux Motorized Infantry",
+          "Location": 1866,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Motorized",
+          "TemplateName": "Sioux Motorized Infantry",
+          "Location": 1836,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Motorized",
+          "TemplateName": "Sioux Motorized Infantry",
+          "Location": 4872,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Cavalry",
+          "TemplateName": "Sioux Cavalry",
+          "Location": 12688,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "2nd Cavalry",
+          "TemplateName": "Sioux Cavalry",
+          "Location": 3719,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Cavalry",
+          "TemplateName": "Sioux Cavalry",
+          "Location": 12577,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Cavalry",
+          "TemplateName": "Sioux Cavalry",
+          "Location": 9892,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Cavalry",
+          "TemplateName": "Sioux Cavalry",
+          "Location": 7586,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "OSA",
+      "FileId": "OSA_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1534,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.6
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1806,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.6
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "WIC",
+      "FileId": "WIC_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 3960,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.6
+        },
+        {
+          "Name": "1st Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 5001,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.6
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "CAD",
+      "FileId": "CAD_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "artillery_brigade",
+              "X": 3,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            },
+            {
+              "Type": "anti_air",
+              "X": 0,
+              "Y": 3,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "mot_artillery_brigade",
+              "X": 3,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "field_hospital",
+              "X": 0,
+              "Y": 3,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 10337,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12782,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 5015,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 10769,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12811,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "6th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1643,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "1st Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12341,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 6987,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 6785,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1500,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "COM",
+      "FileId": "COM_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 4955,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12720,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1998,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 8064,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12728,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "2nd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 5038,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "MSA",
+      "FileId": "MSA_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 3972,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 4740,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 4975,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 1915,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12624,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 10702,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "2nd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 10867,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "SHO",
+      "FileId": "SHO_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "6th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "7th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "8th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "9th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "10th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "11th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1827,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "APA",
+      "FileId": "APA_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 8097,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 7920,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 8070,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 6897,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 10914,
+          "EquipmentFactor": 1.00,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "NAJ",
+      "FileId": "NAJ_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 9792,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 1
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 7818,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 10642,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 868,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "UTE",
+      "FileId": "UTE_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1658,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1756,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 10640,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 7888,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 10535,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "6th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1658,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    },
+    {
+      "CountryTag": "BFC",
+      "FileId": "BFC_1936",
+      "DivisionTemplates": [
+        {
+          "Name": "Infantry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "infantry",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Mobile Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "motorized",
+              "X": 2,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "mot_recon",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            },
+            {
+              "Type": "artillery",
+              "X": 0,
+              "Y": 2,
+              "Support": true
+            }
+          ]
+        },
+        {
+          "Name": "Cavalry Division",
+          "DivisionNamesGroup": "",
+          "Priority": 1,
+          "Battalions": [
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 0,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 1,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 2,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 1,
+              "Y": 3,
+              "Support": false
+            },
+            {
+              "Type": "cavalry",
+              "X": 0,
+              "Y": 3,
+              "Support": false
+            },
+            {
+              "Type": "engineer",
+              "X": 0,
+              "Y": 0,
+              "Support": true
+            },
+            {
+              "Type": "recon",
+              "X": 0,
+              "Y": 1,
+              "Support": true
+            }
+          ]
+        }
+      ],
+      "Divisions": [
+        {
+          "Name": "1st Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1747,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1747,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 4860,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 4860,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "5th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1767,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "6th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1767,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "7th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1815,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "8th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 1815,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "9th Infantry Division",
+          "TemplateName": "Infantry Division",
+          "Location": 12603,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 12585,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 7745,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 7880,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "4th Cavalry Division",
+          "TemplateName": "Cavalry Division",
+          "Location": 4863,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "1st Mobile Infantry Division",
+          "TemplateName": "Mobile Division",
+          "Location": 7880,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "2nd Mobile Infantry Division",
+          "TemplateName": "Mobile Division",
+          "Location": 1815,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.40
+        },
+        {
+          "Name": "3rd Mobile Infantry Division",
+          "TemplateName": "Mobile Division",
+          "Location": 4794,
+          "EquipmentFactor": 1,
+          "ExperienceFactor": 0.4
+        }
+      ],
+      "AirWings": [],
+      "Fleets": []
+    }
+  ],
   "Bookmarks": [],
   "IgnoreInheritedDatedStateHistory": false,
   "HistoryBaselineDate": "",
   "UseBookmarkMapSetups": false,
   "EditingBookmarkMapId": "",
   "LoadingScreens": [],
+  "MusicStations": [],
+  "LawGroups": [],
   "ReplaceInheritedLoadingScreens": false,
   "LoadingQuotes": [],
   "ReplaceInheritedLoadingQuotes": false,
@@ -14642,7 +17870,9 @@
       "SuppressDatedCountryHistory": true,
       "Owner": "UTI",
       "Controller": null,
-      "AddCores": [],
+      "AddCores": [
+        "UTI"
+      ],
       "RemoveCores": [],
       "AddClaims": [
         "UTI"
@@ -14720,7 +17950,9 @@
       "SuppressDatedCountryHistory": true,
       "Owner": "UTI",
       "Controller": null,
-      "AddCores": [],
+      "AddCores": [
+        "UTI"
+      ],
       "RemoveCores": [],
       "AddClaims": [
         "UTI"
@@ -15968,13 +19200,14 @@
       "Owner": "SEM",
       "Controller": null,
       "AddCores": [
-        "UTI",
         "SEM"
       ],
-      "RemoveCores": [],
+      "RemoveCores": [
+        "USA"
+      ],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": null,
+      "Manpower": 2468210,
       "Category": null,
       "Buildings": [],
       "VictoryPoints": [],
@@ -16037,10 +19270,10 @@
       "StateId": 395,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16061,10 +19294,10 @@
       "StateId": 396,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16089,10 +19322,10 @@
       "StateId": 261,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16116,7 +19349,7 @@
       "Owner": "UTI",
       "Controller": null,
       "AddCores": [
-        "GLT",
+        "NWC",
         "UTI"
       ],
       "RemoveCores": [],
@@ -16143,10 +19376,10 @@
       "StateId": 394,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16172,10 +19405,10 @@
       "StateId": 393,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16207,10 +19440,10 @@
       "StateId": 276,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16231,10 +19464,10 @@
       "StateId": 682,
       "Removed": false,
       "SuppressDatedCountryHistory": true,
-      "Owner": "GLT",
+      "Owner": "NWC",
       "Controller": null,
       "AddCores": [
-        "GLT"
+        "NWC"
       ],
       "RemoveCores": [],
       "AddClaims": [],
@@ -16363,9 +19596,15 @@
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": null,
+      "Manpower": 1892849,
       "Category": null,
-      "Buildings": [],
+      "Buildings": [
+        {
+          "Type": "industrial_complex",
+          "Level": 3,
+          "ProvinceId": 0
+        }
+      ],
       "VictoryPoints": [
         {
           "ProvinceId": 1747,
@@ -16403,7 +19642,7 @@
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": null,
+      "Manpower": 4377962,
       "Category": null,
       "Buildings": [],
       "VictoryPoints": [],
@@ -16916,7 +20155,9 @@
       "SuppressDatedCountryHistory": true,
       "Owner": "MSA",
       "Controller": null,
-      "AddCores": [],
+      "AddCores": [
+        "MSA"
+      ],
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
@@ -20146,7 +23387,9 @@
       "SuppressDatedCountryHistory": true,
       "Owner": "APA",
       "Controller": null,
-      "AddCores": [],
+      "AddCores": [
+        "APA"
+      ],
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
@@ -20424,7 +23667,7 @@
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": null,
+      "Manpower": 3225564,
       "Category": null,
       "Buildings": [],
       "VictoryPoints": [
@@ -20523,9 +23766,15 @@
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": null,
+      "Manpower": 937605,
       "Category": null,
-      "Buildings": [],
+      "Buildings": [
+        {
+          "Type": "arms_factory",
+          "Level": 3,
+          "ProvinceId": 0
+        }
+      ],
       "VictoryPoints": [],
       "Resources": [],
       "LocalSupplies": null,
@@ -20650,6 +23899,11 @@
         },
         {
           "Type": "industrial_complex",
+          "Level": 2,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "arms_factory",
           "Level": 2,
           "ProvinceId": 0
         }

@@ -29,6 +29,7 @@ state = {
                 dockyard = 5
             }
         }
+        add_core_of = UTI
         add_claim_by = UTI
     }
     provinces = { 788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 }
