@@ -1,0 +1,28 @@
+state = {
+    id = 385
+    name = STATE_385
+    manpower = 953785
+    state_category = town
+    history = {
+        owner = XMZ
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 4
+            air_base = 6
+            12211 = {
+                naval_base = 3
+            }
+            arms_factory = 1
+        }
+        add_core_of = USA
+        victory_points = { 3513 1 }
+        add_core_of = XMZ
+    }
+    provinces = { 505 528 1414 3471 3513 4274 4328 4347 4380 7398 10151 10183 11495 11733 12183 12211 12281 }
+    local_supplies = 0.0
+    resources = {
+        aluminium = 22
+        oil = 3
+        chromium = 6
+    }
+}

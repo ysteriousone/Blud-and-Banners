@@ -1,0 +1,14 @@
+
+ideas = {
+    country = {
+        new_national_spirit = {
+            picture = generic_production
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = 0.10
+            }
+        }
+    }
+}

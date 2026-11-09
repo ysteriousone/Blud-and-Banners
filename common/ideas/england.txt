@@ -1,0 +1,88 @@
+
+ideas = {
+    country = {
+        collapsing_army_ENG = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                army_attack_factor > -0.20
+                land_night_attack > -0.20
+                attrition < 0.10
+                land_reinforce_rate = -0.05
+                casualty_trickleback = -0.10
+                defence = -0.15
+                breakthrough_factor = -0.20
+            }
+        }
+        ENG_outdated_navy = {
+            picture = generic_coastal_defense_ships2
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                critical_receive_chance = 0.15
+                max_organisation = -0.10
+                naval_detection = -0.10
+                naval_defense_factor = -0.15
+                naval_damage_factor = -0.15
+                naval_accidents_chance = 0.10
+                naval_hit_chance = -0.15
+                naval_retreat_speed = -0.20
+            }
+        }
+        ENG_grounded_air_force = {
+            picture = air_war_plans_division_focus
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                air_accidents_factor = 0.10
+                air_ace_generation_chance_factor = -0.15
+                air_detection = -0.20
+                air_mission_efficiency = -0.10
+                air_night_penalty = 0.10
+                ground_attack_factor = -0.15
+                air_range_factor = -0.20
+                air_mastery_gain_factor = -0.15
+            }
+        }
+        ENG_non_existent_economy = {
+            picture = GER_recovering_economy
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.20
+                industrial_capacity_factory = -0.20
+                industrial_capacity_dockyard = -0.20
+                consumer_goods_factor = 0.40
+                energy_gain_factor = -0.10
+            }
+        }
+        ENG_will_of_people = {
+            picture = SWE_the_lion_of_the_north
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = 0.15
+                stability_factor = 0.10
+                democratic_drift = 0.05
+                stability_weekly = 0.0010
+            }
+        }
+        ENG_national_armed_forces_reform_plan = {
+            picture = tur_coordinated_balkan_armed_forces
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                experience_gain_air = 0.10
+                experience_gain_army = 0.10
+                experience_gain_navy = 0.10
+            }
+        }
+    }
+}

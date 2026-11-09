@@ -1306,6 +1306,10 @@ PER_viceroyalty_of_persia = {
     color = rgb { 139 0 0 }
     color_ui = rgb { 139 0 0 }
 }
+samanid_empire_tag = {
+    color = rgb { 0 165 114 }
+    color_ui = rgb { 0 165 114 }
+}
 european_union_leader = {
     color = rgb { 0 51 153 }
     color_ui = rgb { 0 51 153 }

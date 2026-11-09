@@ -8,7 +8,7 @@ state = {
         steel = 2
     }
     history = {
-        owner = MIN
+        owner = KMT
         add_core_of = PRC
         add_core_of = CHI
         1936.1.1 = {
@@ -30,6 +30,7 @@ state = {
             infrastructure = 2
         }
         add_core_of = MIN
+        add_core_of = KMT
     }
     provinces = { 1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 }
     local_supplies = 0.0

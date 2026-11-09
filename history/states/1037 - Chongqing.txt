@@ -4,7 +4,7 @@ state = {
     resources = {
     }
     history = {
-        owner = MIN
+        owner = KMT
         add_core_of = CHI
         add_core_of = PRC
         buildings = {
@@ -38,6 +38,7 @@ state = {
             }
         }
         add_core_of = MIN
+        add_core_of = KMT
     }
     provinces = { 4431 6999 7240 11972 12705 }
     manpower = 31777980

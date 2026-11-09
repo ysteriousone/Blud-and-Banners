@@ -1,0 +1,22 @@
+state = {
+    id = 1097
+    name = STATE_1097
+    manpower = 4501002
+    state_category = rural
+    history = {
+        owner = CMS
+        add_core_of = CMS
+        victory_points = { 9814 30 }
+        buildings = {
+            arms_factory = 1
+            infrastructure = 4
+            industrial_complex = 3
+        }
+    }
+    provinces = { 6881 7517 9814 9855 11757 11859 11876 }
+    resources = {
+        aluminium = 14
+        oil = 19
+        steel = 18
+    }
+}

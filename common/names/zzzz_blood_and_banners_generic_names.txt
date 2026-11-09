@@ -86,6 +86,17 @@ CIR = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
+CMS = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
 COM = {
 	male = {
 		names = { "•" "Degataga" "Gawonii" "Conocotocko" "Hashké" "Adohi" "Oconostota" "Enoli" "Atsadi" }
@@ -141,6 +152,17 @@ FAE = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
+FFK = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
 GUJ = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
@@ -180,6 +202,16 @@ KAN = {
 	}
 	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+KMT = {
+	male = {
+		names = { "Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia" "Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie" "Ma" "Kong" "Dong" "Pan" "Yu" }
+	}
+	female = {
+		names = { "Li" "Bao" "Mulan" "Lanfen" "Mingzhu" "Qingling" "Mei" "Yingtai" "Feng" "Zhi Ruo" "Fei" "Ru Shi" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying" "Fuyuan" "Luzhen" "Ruirong" "Suzhen" "Xiaoying" "Xiaoyuan" "Xiaoji" "Xiaolou" }
+	}
+	surnames = { "Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian" "Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu" }
 }
 
 KOK = {
@@ -389,6 +421,17 @@ TIK = {
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
 }
 
+TPT = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
 TRP = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
@@ -456,6 +499,27 @@ WAD = {
 }
 
 WIC = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+
+XMZ = {
+	male = {
+		names = { "Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia" "Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie" "Ma" "Kong" "Dong" "Pan" "Yu" }
+	}
+	female = {
+		names = { "Li" "Bao" "Mulan" "Lanfen" "Mingzhu" "Qingling" "Mei" "Yingtai" "Feng" "Zhi Ruo" "Fei" "Ru Shi" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying" "Fuyuan" "Luzhen" "Ruirong" "Suzhen" "Xiaoying" "Xiaoyuan" "Xiaoji" "Xiaolou" }
+	}
+	surnames = { "Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian" "Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu" }
+}
+
+YOK = {
 	male = {
 		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
 	}

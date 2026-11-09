@@ -1,0 +1,43 @@
+focus_tree = {
+    id = Egypt_focus.txt
+    default = no
+    country = {
+        factor = 10
+        modifier = {
+            add = 1000
+            tag = EGY
+        }
+        modifier = add
+    }
+    continuous_focus_position = { x = 34 y = 942 }
+
+    focus = {
+        id = Egypt_focus_tree
+        icon = GFX_focus_SWE_neither_death_nor_dishonor
+        x = 20
+        y = 0
+        cost = 10
+        cancel_if_invalid = no
+        completion_reward = {
+            add_stability = -0.10
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = blood_and_banners_Egypt_focus_tree_focus_2
+        icon = GFX_goal_unknown
+        x = 20
+        y = 1
+        cost = 10
+        prerequisite = { focus = Egypt_focus_tree }
+        completion_reward = {
+            add_political_power = 100
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

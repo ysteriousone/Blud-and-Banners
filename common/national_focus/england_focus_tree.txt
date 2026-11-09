@@ -1,0 +1,51 @@
+focus_tree = {
+    id = england_focus_tree
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = ENG
+        }
+    }
+    continuous_focus_position = { x = 34 y = 942 }
+
+    focus = {
+        id = ENG_commence_armed_forces_reform_plan
+        icon = GFX_focus_chi_army_reform
+        x = 16
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_timed_idea = {
+                idea = ENG_national_armed_forces_reform_plan
+                days = 180
+            }
+            army_experience = 50
+            air_experience = 50
+            navy_experience = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = ENG_rearm_royal_army
+        icon = GFX_focus_AST_owen_gun
+        x = 16
+        y = 1
+        cost = 10
+        prerequisite = { focus = ENG_commence_armed_forces_reform_plan }
+        completion_reward = {
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

@@ -938,27 +938,24 @@ guiTypes = {
 			format = centre
 		}
 
-		containerWindowType = {
-			name = "hmb_country_history_scroll"
-			position = { x = 810 y = 502 }
-			size = { width = 400 height = 185 }
-			clipping = yes
-			verticalScrollbar = "right_vertical_slider"
-			scroll_wheel_factor = 50
-			smooth_scrolling = yes
-			drag_scroll = { left middle }
-			margin = { right = 14 }
-			# HOI4 Mod Builder scrollable country history
-			instantTextBoxType = {
-			name = "history"
-			position = { x = 0 y = 0 }
-			font = "hoi4_typewriter16"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 365
-			maxHeight = 1000
-			format = left
-		}
-		}
+		instantTextBoxType = {
+    name = history
+    position = {
+        x = 810
+        y = 502
+    }
+    font = hoi4_typewriter16
+    borderSize = {
+        x = 0
+        y = 0
+    }
+    maxWidth = 380
+    format = left
+    maxHeight = 185
+    scrollbarType = standardtext_slider
+    fixedsize = no
+    alwaystransparent = no
+}
 
 		dropDownBoxType = {
 			name = "more_countries"

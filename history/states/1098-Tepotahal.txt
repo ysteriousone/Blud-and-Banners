@@ -1,0 +1,21 @@
+state = {
+    id = 1098
+    name = STATE_1098
+    manpower = 230001
+    state_category = town
+    history = {
+        owner = TPT
+        add_core_of = TPT
+        buildings = {
+            arms_factory = 1
+            infrastructure = 3
+            dockyard = 3
+            industrial_complex = 2
+        }
+    }
+    provinces = { 986 3784 3840 6861 9637 }
+    resources = {
+        oil = 21
+        aluminium = 3
+    }
+}

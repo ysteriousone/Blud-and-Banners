@@ -17,6 +17,10 @@ state = {
             }
         }
         1938.10.25 = {
+            add_dynamic_modifier = {
+                modifier = yellow_river_blown
+                days = 300
+            }
         }
         add_core_of = MIN
     }

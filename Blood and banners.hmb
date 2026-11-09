@@ -1,10 +1,10 @@
 {
-  "FormatVersion": 78,
+  "FormatVersion": 82,
   "Name": "Blood and Banners",
   "Id": "blood_and_banners",
   "CheckpointIdentity": "A5E5BDED87434214BE7F005DB0B99308BB788648DA8BCDFDEDAED9E776795983",
   "SupportedVersion": "1.19.3.0",
-  "DismissedCompatibilityVersion": "",
+  "DismissedCompatibilityVersion": "1.19.4.1",
   "SaveMode": "portable",
   "Hoi4InstallPath": "c:\\program files (x86)\\steam\\steamapps\\common\\Hearts of Iron IV",
   "SourceModPath": "",
@@ -828,7 +828,28 @@
     "TAY_democratic_party": "TND",
     "TAY_democratic_party_long": "Taymyr National Duma",
     "TAY_neutrality_party": "NRC",
-    "TAY_neutrality_party_long": "Dolgano-Nenets Regional Committee "
+    "TAY_neutrality_party_long": "Dolgano-Nenets Regional Committee ",
+    "ENG_fascism": "British Empire",
+    "ENG_fascism_DEF": "the British Empire",
+    "ENG_democratic": "United Kingdom",
+    "ENG_democratic_DEF": "the United Kingdom",
+    "ENG_neutrality": "Great Britain",
+    "ENG_neutrality_DEF": "Great Britain",
+    "ENG_communism": "Union of Britain",
+    "ENG_communism_DEF": "the Union of Britain",
+    "ENG_fascism_ADJ": "British",
+    "ENG_democratic_ADJ": "British",
+    "ENG_neutrality_ADJ": "British",
+    "ENG_communism_ADJ": "British",
+    "ENG_commence_armed_forces_reform_plan": "Britain",
+    "ENG_DEF": "Britain",
+    "ENG_ADJ": "British",
+    "ENG_communism_party": "CPGB",
+    "ENG_communism_party_long": "Communist Party of Great Britain",
+    "ENG_democratic_party": "Conservative Party",
+    "ENG_fascism_party": "British Union of Fascists",
+    "ENG_neutrality_party": "House of Windsor",
+    "ENG_neutrality_party_long": "the House of Windsor"
   },
   "PortableSourceImported": false,
   "EmbeddedAssets": {
@@ -924,6 +945,8 @@
   "ReplaceVanillaIdeologies": false,
   "KeepVanillaIdeologyCompatibility": true,
   "ScrollableIdeologyList": false,
+  "ShowDiplomacySubIdeology": false,
+  "OwnDiplomacySubIdeologyFiles": false,
   "IsSubmod": false,
   "ParentModName": "",
   "ParentModPath": "",
@@ -958,6 +981,187 @@
       "SharedFocusIds": [],
       "AdditionalFields": "",
       "Focuses": []
+    },
+    {
+      "Id": "Egypt_focus_tree",
+      "Name": "Egypt Focus Tree",
+      "Kind": "country",
+      "SourceFileName": "EGY_focus.txt",
+      "Default": false,
+      "ResetOnCivilWar": false,
+      "ContinuousFocusPosition": true,
+      "ContinuousFocusX": 34,
+      "ContinuousFocusY": 942,
+      "InitialShowPosition": false,
+      "InitialShowX": 0,
+      "InitialShowY": 0,
+      "CountryTags": [
+        "EGY"
+      ],
+      "CountryTrigger": "",
+      "CountrySelectionFactor": 300,
+      "CountrySelectionWeight": 1000,
+      "CountrySelectionAdditionalFields": "modifier = add",
+      "SharedFocusIds": [],
+      "AdditionalFields": "",
+      "Focuses": [
+        {
+          "Id": "Egypt_focus_tree",
+          "Name": "Fuad is Dead",
+          "Description": "Our Great Sultan Fuad Al Misriyya, has finally left this world. The great warrior who defended our lands from the Ottomans, now lays in his grave.",
+          "Icon": "GFX_focus_SWE_neither_death_nor_dishonor",
+          "IconSource": "",
+          "X": 3600,
+          "Y": 0,
+          "Cost": 10,
+          "SearchFilters": [],
+          "WillLeadToWar": false,
+          "Prerequisites": [],
+          "PrerequisiteMode": "AND",
+          "PrerequisiteGroups": [],
+          "MutuallyExclusive": [],
+          "RelativePositionId": "",
+          "CancelIfInvalid": false,
+          "ContinueIfInvalid": false,
+          "AvailableIfCapitulated": false,
+          "BypassIfUnavailable": false,
+          "AllowBranch": "",
+          "BranchUnlock": {
+            "Key": "",
+            "Mode": "none",
+            "SourceId": "",
+            "EventOptionKey": ""
+          },
+          "Bypass": "",
+          "SelectEffect": "",
+          "CompleteTooltip": "",
+          "Available": "",
+          "CompletionReward": "add_stability = -0.10",
+          "AiWillDo": "factor = 1",
+          "AdditionalFields": ""
+        },
+        {
+          "Id": "blood_and_banners_Egypt_focus_tree_focus_2",
+          "Name": "What Now?",
+          "Description": "The nation is in crisis, we must elect a new leader, but who can take his mantle? What will Egypt do?",
+          "Icon": "GFX_goal_unknown",
+          "IconSource": "",
+          "X": 3600,
+          "Y": 130,
+          "Cost": 10,
+          "SearchFilters": [],
+          "WillLeadToWar": false,
+          "Prerequisites": [
+            "Egypt_focus_tree"
+          ],
+          "PrerequisiteMode": "AND",
+          "PrerequisiteGroups": [],
+          "MutuallyExclusive": [],
+          "RelativePositionId": "",
+          "CancelIfInvalid": true,
+          "ContinueIfInvalid": false,
+          "AvailableIfCapitulated": false,
+          "BypassIfUnavailable": false,
+          "AllowBranch": "",
+          "BranchUnlock": {
+            "Key": "",
+            "Mode": "none",
+            "SourceId": "",
+            "EventOptionKey": ""
+          },
+          "Bypass": "",
+          "SelectEffect": "",
+          "CompleteTooltip": "",
+          "Available": "",
+          "CompletionReward": "add_political_power = 100",
+          "AiWillDo": "factor = 1",
+          "AdditionalFields": ""
+        }
+      ]
+    },
+    {
+      "Id": "new_focus_tree_2",
+      "Name": "New Focus Tree",
+      "Kind": "country",
+      "SourceFileName": "",
+      "Default": false,
+      "ResetOnCivilWar": false,
+      "ContinuousFocusPosition": false,
+      "ContinuousFocusX": 50,
+      "ContinuousFocusY": 1000,
+      "InitialShowPosition": false,
+      "InitialShowX": 0,
+      "InitialShowY": 0,
+      "CountryTags": [
+        "TIK"
+      ],
+      "CountryTrigger": "",
+      "CountrySelectionFactor": 0,
+      "CountrySelectionWeight": 1000,
+      "CountrySelectionAdditionalFields": "",
+      "SharedFocusIds": [],
+      "AdditionalFields": "",
+      "Focuses": []
+    },
+    {
+      "Id": "england_focus_tree",
+      "Name": "United Kingdom Focus Tree",
+      "Kind": "country",
+      "SourceFileName": "",
+      "Default": false,
+      "ResetOnCivilWar": false,
+      "ContinuousFocusPosition": false,
+      "ContinuousFocusX": 50,
+      "ContinuousFocusY": 1000,
+      "InitialShowPosition": false,
+      "InitialShowX": 0,
+      "InitialShowY": 0,
+      "CountryTags": [
+        "ENG"
+      ],
+      "CountryTrigger": "",
+      "CountrySelectionFactor": 0,
+      "CountrySelectionWeight": 1000,
+      "CountrySelectionAdditionalFields": "",
+      "SharedFocusIds": [],
+      "AdditionalFields": "",
+      "Focuses": [
+        {
+          "Id": "ENG_commence_armed_forces_reform_plan",
+          "Name": "Commence the National Armed Forces Refrom Plan",
+          "Description": "Ever since the disasters of the North American colinzation campaign and the Great War, our armed forces have been reduced to dust, a downgrade from rubble. In order to protect England, we must have an army that can protect",
+          "Icon": "GFX_focus_chi_army_reform",
+          "IconSource": "",
+          "X": 0,
+          "Y": 130,
+          "Cost": 10,
+          "SearchFilters": [],
+          "WillLeadToWar": false,
+          "Prerequisites": [],
+          "PrerequisiteMode": "AND",
+          "PrerequisiteGroups": [],
+          "MutuallyExclusive": [],
+          "RelativePositionId": "",
+          "CancelIfInvalid": true,
+          "ContinueIfInvalid": false,
+          "AvailableIfCapitulated": false,
+          "BypassIfUnavailable": false,
+          "AllowBranch": "",
+          "BranchUnlock": {
+            "Key": "",
+            "Mode": "none",
+            "SourceId": "",
+            "EventOptionKey": ""
+          },
+          "Bypass": "",
+          "SelectEffect": "",
+          "CompleteTooltip": "",
+          "Available": "",
+          "CompletionReward": "add_timed_idea = {\n    idea = ENG_national_armed_forces_reform_plan\n    days = 180\n}\narmy_experience = 50\nair_experience = 50\nnavy_experience = 50",
+          "AiWillDo": "factor = 1",
+          "AdditionalFields": ""
+        }
+      ]
     }
   ],
   "GfxAssets": [],
@@ -8549,12 +8753,626 @@
         "Description": "Shares leadership of the country.",
         "Modifiers": ""
       }
+    },
+    {
+      "Tag": "YOK",
+      "Name": "Yokuts",
+      "DefiniteName": "Yokut",
+      "Adjective": "Yokut",
+      "Red": 160,
+      "Green": 0,
+      "Blue": 33,
+      "CapitalState": 1096,
+      "Ideology": "neutrality",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "western_european_gfx",
+      "GraphicalCulture2d": "western_european_2d",
+      "DefinitionFileName": "",
+      "HistoryFileName": "",
+      "OverrideExistingTag": false,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [
+        {
+          "Id": "2382a76017614a948d3d4438baee1edd",
+          "Name": "YOK",
+          "Target": "default",
+          "TargetId": "",
+          "ArtworkSource": "",
+          "UseDesigner": false,
+          "Design": {
+            "Pattern": "Horizontal tricolor",
+            "BackgroundSource": "",
+            "PrimaryRed": 145,
+            "PrimaryGreen": 32,
+            "PrimaryBlue": 38,
+            "SecondaryRed": 244,
+            "SecondaryGreen": 244,
+            "SecondaryBlue": 238,
+            "AccentRed": 28,
+            "AccentGreen": 48,
+            "AccentBlue": 100,
+            "BorderEnabled": false,
+            "BorderRed": 255,
+            "BorderGreen": 255,
+            "BorderBlue": 255,
+            "BorderWidthPercent": 3,
+            "Emblems": []
+          }
+        }
+      ],
+      "IdeologyNames": {},
+      "IdeologyDefiniteNames": {},
+      "IdeologyAdjectives": {},
+      "PartyNames": {},
+      "PartyLongNames": {},
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 0,
+      "FascismPopularity": 0,
+      "CommunismPopularity": 0,
+      "NeutralityPopularity": 100,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1936.1.1",
+      "Stability": 50,
+      "WarSupport": 50,
+      "ResearchSlots": 3,
+      "Convoys": 0,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "",
+      "DatedHistory": [],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
+    },
+    {
+      "Tag": "CMS",
+      "Name": "Chumash",
+      "DefiniteName": "the Chumash",
+      "Adjective": "Chumash",
+      "Red": 0,
+      "Green": 4,
+      "Blue": 160,
+      "CapitalState": 1097,
+      "Ideology": "neutrality",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "western_european_gfx",
+      "GraphicalCulture2d": "western_european_2d",
+      "DefinitionFileName": "",
+      "HistoryFileName": "",
+      "OverrideExistingTag": false,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [
+        {
+          "Id": "91baa6c3fa8a4be9a01148eee5596bd2",
+          "Name": "CMS",
+          "Target": "default",
+          "TargetId": "",
+          "ArtworkSource": "",
+          "UseDesigner": false,
+          "Design": {
+            "Pattern": "Horizontal tricolor",
+            "BackgroundSource": "",
+            "PrimaryRed": 145,
+            "PrimaryGreen": 32,
+            "PrimaryBlue": 38,
+            "SecondaryRed": 244,
+            "SecondaryGreen": 244,
+            "SecondaryBlue": 238,
+            "AccentRed": 28,
+            "AccentGreen": 48,
+            "AccentBlue": 100,
+            "BorderEnabled": false,
+            "BorderRed": 255,
+            "BorderGreen": 255,
+            "BorderBlue": 255,
+            "BorderWidthPercent": 3,
+            "Emblems": []
+          }
+        }
+      ],
+      "IdeologyNames": {},
+      "IdeologyDefiniteNames": {},
+      "IdeologyAdjectives": {},
+      "PartyNames": {},
+      "PartyLongNames": {},
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 0,
+      "FascismPopularity": 0,
+      "CommunismPopularity": 0,
+      "NeutralityPopularity": 100,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1936.1.1",
+      "Stability": 50,
+      "WarSupport": 50,
+      "ResearchSlots": 3,
+      "Convoys": 0,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "",
+      "DatedHistory": [],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
+    },
+    {
+      "Tag": "TPT",
+      "Name": "T\u0027epot\u0027aha\u0027l",
+      "DefiniteName": "the T\u0027epot\u0027aha\u0027l",
+      "Adjective": "Tepotahala",
+      "Red": 15,
+      "Green": 160,
+      "Blue": 0,
+      "CapitalState": 1098,
+      "Ideology": "neutrality",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "western_european_gfx",
+      "GraphicalCulture2d": "western_european_2d",
+      "DefinitionFileName": "",
+      "HistoryFileName": "",
+      "OverrideExistingTag": false,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [
+        {
+          "Id": "3248269efd7e4827ba2a7c6d1e6c7c76",
+          "Name": "TPT",
+          "Target": "default",
+          "TargetId": "",
+          "ArtworkSource": "",
+          "UseDesigner": false,
+          "Design": {
+            "Pattern": "Horizontal tricolor",
+            "BackgroundSource": "",
+            "PrimaryRed": 145,
+            "PrimaryGreen": 32,
+            "PrimaryBlue": 38,
+            "SecondaryRed": 244,
+            "SecondaryGreen": 244,
+            "SecondaryBlue": 238,
+            "AccentRed": 28,
+            "AccentGreen": 48,
+            "AccentBlue": 100,
+            "BorderEnabled": false,
+            "BorderRed": 255,
+            "BorderGreen": 255,
+            "BorderBlue": 255,
+            "BorderWidthPercent": 3,
+            "Emblems": []
+          }
+        }
+      ],
+      "IdeologyNames": {},
+      "IdeologyDefiniteNames": {},
+      "IdeologyAdjectives": {},
+      "PartyNames": {},
+      "PartyLongNames": {},
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 0,
+      "FascismPopularity": 0,
+      "CommunismPopularity": 0,
+      "NeutralityPopularity": 100,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1936.1.1",
+      "Stability": 50,
+      "WarSupport": 50,
+      "ResearchSlots": 3,
+      "Convoys": 0,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "",
+      "DatedHistory": [],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
+    },
+    {
+      "Tag": "FFK",
+      "Name": "Federatrion of the Five Kingdoms",
+      "DefiniteName": "the Federatrion of the Five Kingdoms",
+      "Adjective": "Calinaran",
+      "Red": 52,
+      "Green": 107,
+      "Blue": 255,
+      "CapitalState": 378,
+      "Ideology": "neutrality",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "western_european_gfx",
+      "GraphicalCulture2d": "western_european_2d",
+      "DefinitionFileName": "",
+      "HistoryFileName": "",
+      "OverrideExistingTag": false,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [
+        {
+          "Id": "6add89ec65e0422da4842d7ff48a63eb",
+          "Name": "FFK",
+          "Target": "default",
+          "TargetId": "",
+          "ArtworkSource": "",
+          "UseDesigner": false,
+          "Design": {
+            "Pattern": "Horizontal tricolor",
+            "BackgroundSource": "",
+            "PrimaryRed": 145,
+            "PrimaryGreen": 32,
+            "PrimaryBlue": 38,
+            "SecondaryRed": 244,
+            "SecondaryGreen": 244,
+            "SecondaryBlue": 238,
+            "AccentRed": 28,
+            "AccentGreen": 48,
+            "AccentBlue": 100,
+            "BorderEnabled": false,
+            "BorderRed": 255,
+            "BorderGreen": 255,
+            "BorderBlue": 255,
+            "BorderWidthPercent": 3,
+            "Emblems": []
+          }
+        }
+      ],
+      "IdeologyNames": {},
+      "IdeologyDefiniteNames": {},
+      "IdeologyAdjectives": {},
+      "PartyNames": {},
+      "PartyLongNames": {},
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 0,
+      "FascismPopularity": 0,
+      "CommunismPopularity": 0,
+      "NeutralityPopularity": 100,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1936.1.1",
+      "Stability": 50,
+      "WarSupport": 50,
+      "ResearchSlots": 3,
+      "Convoys": 0,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "",
+      "DatedHistory": [],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
+    },
+    {
+      "Tag": "XMZ",
+      "Name": "Xin Manzhou",
+      "DefiniteName": "the Xin Manzhou",
+      "Adjective": "Sinomerican",
+      "Red": 90,
+      "Green": 120,
+      "Blue": 160,
+      "CapitalState": 385,
+      "Ideology": "neutrality",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "western_european_gfx",
+      "GraphicalCulture2d": "western_european_2d",
+      "DefinitionFileName": "",
+      "HistoryFileName": "",
+      "OverrideExistingTag": false,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [
+        {
+          "Id": "48b0595868c0404e950b0e83869507ed",
+          "Name": "XMZ",
+          "Target": "default",
+          "TargetId": "",
+          "ArtworkSource": "",
+          "UseDesigner": false,
+          "Design": {
+            "Pattern": "Horizontal tricolor",
+            "BackgroundSource": "",
+            "PrimaryRed": 145,
+            "PrimaryGreen": 32,
+            "PrimaryBlue": 38,
+            "SecondaryRed": 244,
+            "SecondaryGreen": 244,
+            "SecondaryBlue": 238,
+            "AccentRed": 28,
+            "AccentGreen": 48,
+            "AccentBlue": 100,
+            "BorderEnabled": false,
+            "BorderRed": 255,
+            "BorderGreen": 255,
+            "BorderBlue": 255,
+            "BorderWidthPercent": 3,
+            "Emblems": []
+          }
+        }
+      ],
+      "IdeologyNames": {},
+      "IdeologyDefiniteNames": {},
+      "IdeologyAdjectives": {},
+      "PartyNames": {},
+      "PartyLongNames": {},
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 0,
+      "FascismPopularity": 0,
+      "CommunismPopularity": 0,
+      "NeutralityPopularity": 100,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1936.1.1",
+      "Stability": 50,
+      "WarSupport": 50,
+      "ResearchSlots": 3,
+      "Convoys": 0,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "",
+      "DatedHistory": [],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
+    },
+    {
+      "Tag": "ENG",
+      "Name": "Britain",
+      "DefiniteName": "Britain",
+      "Adjective": "British",
+      "Red": 201,
+      "Green": 56,
+      "Blue": 93,
+      "CapitalState": 126,
+      "Ideology": "democratic",
+      "InitialLeaderIdeologySubtype": "",
+      "GraphicalCulture": "commonwealth_gfx",
+      "GraphicalCulture2d": "commonwealth_2d",
+      "DefinitionFileName": "United Kingdom.txt",
+      "HistoryFileName": "ENG - Britain.txt",
+      "OverrideExistingTag": true,
+      "FlagSource": "",
+      "IdeologyFlagSources": {},
+      "FlagVariants": [],
+      "IdeologyNames": {
+        "fascism": "British Empire",
+        "democratic": "United Kingdom",
+        "neutrality": "Great Britain",
+        "communism": "Union of Britain"
+      },
+      "IdeologyDefiniteNames": {
+        "fascism": "the British Empire",
+        "democratic": "the United Kingdom",
+        "neutrality": "Great Britain",
+        "communism": "the Union of Britain"
+      },
+      "IdeologyAdjectives": {
+        "fascism": "British",
+        "democratic": "British",
+        "neutrality": "British",
+        "communism": "British"
+      },
+      "PartyNames": {
+        "communism": "CPGB",
+        "democratic": "Conservative Party",
+        "fascism": "British Union of Fascists",
+        "neutrality": "House of Windsor"
+      },
+      "PartyLongNames": {
+        "communism": "Communist Party of Great Britain",
+        "neutrality": "the House of Windsor"
+      },
+      "StartingCosmeticTag": "",
+      "CosmeticTags": [],
+      "StartingOverlordTag": "",
+      "StartingAutonomyState": "",
+      "StartingAutonomyFreedomPercent": 0,
+      "DemocraticPopularity": 97,
+      "FascismPopularity": 2,
+      "CommunismPopularity": 1,
+      "NeutralityPopularity": 0,
+      "CustomIdeologyPopularities": {},
+      "ElectionsAllowed": true,
+      "ElectionFrequency": 48,
+      "LastElection": "1935.11.14",
+      "Stability": 60,
+      "WarSupport": 10,
+      "ResearchSlots": 4,
+      "Convoys": 1000,
+      "StartingTechnologies": [],
+      "StartingLaws": [],
+      "StartingEquipmentStockpile": [],
+      "StartingHistoryEffects": "if = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022No Step Back\u0022\r\n            has_dlc = \u0022La Resistance\u0022\r\n        }\r\n    }\r\n    set_oob = ENG_1936\r\n}\r\nif = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022No Step Back\u0022\r\n        }\r\n        has_dlc = \u0022La Resistance\u0022\r\n    }\r\n    set_oob = ENG_1936_LaR\r\n}\r\nif = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022La Resistance\u0022\r\n        }\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    set_oob = ENG_1936_nsb\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022La Resistance\u0022\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    set_oob = ENG_1936_nsb_LaR\r\n}\r\nstarting_train_buffer = 4\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    set_naval_oob = ENG_1936_Naval\r\n    else = {\r\n        set_naval_oob = ENG_1936_Naval_Legacy\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022La Resistance\u0022\r\n    }\r\n    set_technology = {\r\n        armored_car1 = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022By Blood Alone\u0022\r\n    }\r\n    set_air_oob = ENG_1936_air_bba\r\n    set_technology = {\r\n        aa_lmg = 1\r\n        engines_1 = 1\r\n        engines_2 = 1\r\n        early_bombs = 1\r\n        aircraft_construction = 1\r\n        iw_small_airframe = 1\r\n        iw_medium_airframe = 1\r\n        iw_large_airframe = 1\r\n        basic_medium_airframe = 1\r\n        basic_small_airframe = 1\r\n        air_torpedoe_1 = 1\r\n        bba_early_transport_plane = 1\r\n    }\r\n    else = {\r\n        set_air_oob = ENG_1936_air_legacy\r\n        set_technology = {\r\n            early_fighter = 1\r\n            cv_early_fighter = 1\r\n            cv_naval_bomber1 = 1\r\n            naval_bomber1 = 1\r\n            early_bomber = 1\r\n            CAS1 = 1\r\n            early_transport_plane = 1\r\n        }\r\n    }\r\n}\r\nIF = {\r\n    limit = {\r\n        has_dlc = Gotterdammerung\r\n    }\r\n    give_guarantee = BEL\r\n}\r\nIF = {\r\n    limit = {\r\n        has_dlc = \u0022Graveyard of Empires\u0022\r\n    }\r\n    give_guarantee = IRQ\r\n}\r\nIRQ = {\r\n    give_military_access = ENG\r\n    IF = {\r\n        limit = {\r\n            has_dlc = \u0022No Compromise, No Surrender\u0022\r\n        }\r\n        diplomatic_relation = {\r\n            country = ENG\r\n            relation = OFFER_AIR_BASE_ACCESS\r\n            active = yes\r\n        }\r\n    }\r\n}\r\nadd_command_power = 20\r\nset_technology = {\r\n    infantry_weapons = 1\r\n    infantry_weapons1 = 1\r\n    tech_support = 1\r\n    tech_engineers = 1\r\n    tech_recon = 1\r\n    tech_trucks = 1\r\n    motorised_infantry = 1\r\n    gw_artillery = 1\r\n    interwar_antiair = 1\r\n    basic_train = 1\r\n    electronic_mechanical_engineering = 1\r\n    radio = 1\r\n    fuel_silos = 1\r\n    fuel_refining = 1\r\n}\r\nset_grand_doctrine = grand_battleplan\r\nset_grand_doctrine = new_fleet_in_being\r\ncomplete_special_project = {\r\n    project = sp:sp_air_radar\r\n    scientist = ENG_robert_watson_watt\r\n}\r\nadd_breakthrough_progress = {\r\n    specialization = specialization_naval\r\n    value = 0.6\r\n}\r\nadd_breakthrough_progress = {\r\n    specialization = specialization_air\r\n    value = 0.5\r\n}\r\nif = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022No Step Back\u0022\r\n        }\r\n    }\r\n    set_technology = {\r\n        gwtank = 1\r\n        basic_light_tank = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    set_technology = {\r\n        gwtank_chassis = 1\r\n        basic_light_tank_chassis = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Battle for the Bosporus\u0022\r\n    }\r\n    set_technology = {\r\n        camelry = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        not = {\r\n            has_dlc = \u0022Man the Guns\u0022\r\n        }\r\n    }\r\n    set_technology = {\r\n        early_submarine = 1\r\n        early_destroyer = 1\r\n        basic_destroyer = 1\r\n        early_light_cruiser = 1\r\n        early_heavy_cruiser = 1\r\n        early_battleship = 1\r\n        early_battlecruiser = 1\r\n        early_carrier = 1\r\n        transport = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    set_technology = {\r\n        basic_naval_mines = 1\r\n        submarine_mine_laying = 1\r\n        early_ship_hull_light = 1\r\n        basic_ship_hull_light = 1\r\n        early_ship_hull_submarine = 1\r\n        early_ship_hull_cruiser = 1\r\n        basic_ship_hull_cruiser = 1\r\n        early_ship_hull_heavy = 1\r\n        basic_ship_hull_heavy = 1\r\n        early_ship_hull_carrier = 1\r\n        basic_ship_hull_carrier = 1\r\n        basic_battery = 1\r\n        basic_light_battery = 1\r\n        basic_heavy_battery = 1\r\n        basic_torpedo = 1\r\n        sonar = 1\r\n        smoke_generator = 1\r\n        basic_depth_charges = 1\r\n        basic_cruiser_armor_scheme = 1\r\n        basic_heavy_armor_scheme = 1\r\n        mtg_transport = 1\r\n        basic_fire_control_system = 1\r\n        basic_dp_light_battery = 1\r\n        coastal_defense_ships = 1\r\n    }\r\n    add_ideas = MTG_naval_treaty_adherent\r\n    set_global_flag = MTG_second_london_conference\r\n    set_global_flag = {\r\n        flag = MTG_naval_treaty_signatories\r\n        value = 5\r\n    }\r\n}\r\nset_variable = {\r\n    var = eng_gateway_to_europe_influence\r\n    value = 0\r\n}\r\nadd_ideas = { stiff_upper_lip ENG_the_war_to_end_all_wars george_v }\r\nif = {\r\n    limit = {\r\n        OR = {\r\n            has_dlc = \u0022Together for Victory\u0022\r\n            has_dlc = \u0022Man the Guns\u0022\r\n        }\r\n    }\r\n    set_autonomy = {\r\n        target = MAL\r\n        autonomous_state = autonomy_integrated_puppet\r\n    }\r\n    set_autonomy = {\r\n        target = RAJ\r\n        autonomous_state = autonomy_colony\r\n        freedom_level = 0.35\r\n    }\r\n    set_autonomy = {\r\n        target = OMA\r\n        autonomous_state = autonomy_colony\r\n        freedom_level = 0.35\r\n    }\r\n    set_autonomy = {\r\n        target = CAN\r\n        autonomous_state = autonomy_dominion\r\n        freedom_level = 0.4\r\n    }\r\n    set_autonomy = {\r\n        target = SAF\r\n        autonomous_state = autonomy_dominion\r\n        freedom_level = 0.4\r\n    }\r\n    set_autonomy = {\r\n        target = AST\r\n        autonomous_state = autonomy_dominion\r\n        freedom_level = 0.2\r\n    }\r\n    set_autonomy = {\r\n        target = NZL\r\n        autonomous_state = autonomy_dominion\r\n        freedom_level = 0.2\r\n    }\r\n    set_autonomy = {\r\n        target = BRM\r\n        autonomous_state = autonomy_colony\r\n        freedom_level = 0.2\r\n    }\r\n    set_autonomy = {\r\n        target = PAL\r\n        autonomous_state = autonomy_integrated_puppet\r\n        freedom_level = 0.5\r\n    }\r\n    set_autonomy = {\r\n        target = JOR\r\n        autonomous_state = autonomy_colony\r\n        freedom_level = 0.2\r\n    }\r\n    set_autonomy = {\r\n        target = KUW\r\n        autonomous_state = autonomy_integrated_puppet\r\n        freedom_level = 0.5\r\n    }\r\n    else = {\r\n        puppet = MAL\r\n        puppet = RAJ\r\n        puppet = JOR\r\n        puppet = PAL\r\n        puppet = KUW\r\n        puppet = OMA\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Together for Victory\u0022\r\n    }\r\n    add_to_tech_sharing_group = commonwealth_research\r\n}\r\ncreate_faction_from_template = faction_template_allies\r\nIF = {\r\n    limit = {\r\n        has_dlc = \u0022No Compromise, No Surrender\u0022\r\n    }\r\n    add_faction_goal_slot = {\r\n        category = long_term\r\n        value = 1\r\n    }\r\n}\r\nadd_to_faction = ENG\r\nadd_to_faction = CAN\r\nadd_to_faction = AST\r\nadd_to_faction = NZL\r\nadd_to_faction = SAF\r\ngive_military_access = RAJ\r\nadd_to_faction = RAJ\r\nadd_to_faction = MAL\r\nrecruit_character = ENG_oswald_mosley\r\nrecruit_character = ENG_stanley_baldwin\r\nrecruit_character = ENG_winston_churchill\r\nrecruit_character = ENG_harry_pollitt\r\nrecruit_character = ENG_alan_brooke\r\nrecruit_character = ENG_bernard_montgomery\r\nrecruit_character = ENG_claude_auchinleck\r\nrecruit_character = ENG_neil_ritchie\r\nrecruit_character = ENG_alan_cunningham\r\nrecruit_character = ENG_william_slim\r\nrecruit_character = ENG_richard_oconnor\r\nrecruit_character = ENG_william_platt\r\nrecruit_character = ENG_george_giffard\r\nrecruit_character = ENG_harold_alexander\r\nrecruit_character = ENG_jackie_smyth\r\nrecruit_character = ENG_thomas_jacomb_hutton\r\nrecruit_character = ENG_arthur_percival\r\nrecruit_character = ENG_merton_beckwithsmith\r\nrecruit_character = ENG_henry_pownall\r\nrecruit_character = ENG_john_vereker\r\nrecruit_character = ENG_henry_wilson\r\nrecruit_character = ENG_william_gott\r\nrecruit_character = ENG_jock_campbell\r\nrecruit_character = ENG_oliver_leese\r\nrecruit_character = ENG_miles_dempsey\r\nrecruit_character = ENG_brian_horrocks\r\nrecruit_character = ENG_archibald_wavell\r\nrecruit_character = ENG_james_fownes_somerville\r\nrecruit_character = ENG_henry_harwood\r\nrecruit_character = ENG_andrew_cunningham\r\nrecruit_character = ENG_bruce_fraser\r\nrecruit_character = ENG_john_tovey\r\nrecruit_character = ENG_bernard_rawlings\r\nrecruit_character = ENG_john_cunningham\r\nrecruit_character = ENG_charles_forbes\r\nrecruit_character = ENG_algernon_willis\r\nrecruit_character = ENG_arthur_power\r\nrecruit_character = ENG_horatio_dundas\r\nrecruit_character = ENG_edmund_ironside\r\nrecruit_character = ENG_david_stirling\r\nrecruit_character = ENG_james_somerville\r\nrecruit_character = ENG_kenneth_anderson\r\nrecruit_character = ENG_louis_mountbatten\r\nrecruit_character = ENG_arthur_harris\r\nrecruit_character = ENG_james_chadwick\r\nrecruit_character = ENG_jfc_fuller\r\nrecruit_character = ENG_frank_whittle\r\nrecruit_character = ENG_random_communist_minister_15\r\nrecruit_character = ENG_random_communist_minister_14\r\nrecruit_character = ENG_ernle_chatfield\r\nrecruit_character = ENG_trafford_leigh_mallory\r\nrecruit_character = ENG_max_horton\r\nrecruit_character = ENG_tom_phillips\r\nrecruit_character = ENG_hugh_dowding\r\nrecruit_character = ENG_charles_portal\r\nrecruit_character = ENG_dudley_pound\r\nrecruit_character = ENG_raymond_briggs\r\nrecruit_character = ENG_frederick_bowhill\r\nrecruit_character = ENG_cyril_newall\r\nrecruit_character = ENG_sholto_douglas\r\nrecruit_character = ENG_edward_ellington\r\nrecruit_character = ENG_john_beckett\r\nrecruit_character = ENG_corgis_1\r\nrecruit_character = ENG_corgis_2\r\nrecruit_character = ENG_corgis_3\r\nrecruit_character = ENG_alan_turing\r\nrecruit_character = ENG_clement_attlee\r\nrecruit_character = ENG_ernest_bevin\r\nrecruit_character = ENG_leslie_hore_belisha\r\nrecruit_character = ENG_george_orwell\r\nrecruit_character = ENG_nevile_henderson\r\nrecruit_character = ENG_random_communist_minister_8\r\nrecruit_character = ENG_random_communist_minister_9\r\nrecruit_character = ENG_david_lloyd_george\r\nrecruit_character = ENG_random_communist_minister_1\r\nrecruit_character = ENG_random_communist_minister_2\r\nrecruit_character = ENG_random_communist_minister_3\r\nrecruit_character = ENG_random_communist_minister_4\r\nrecruit_character = ENG_random_communist_minister_5\r\nrecruit_character = ENG_random_communist_minister_6\r\nrecruit_character = ENG_random_communist_minister_7\r\nrecruit_character = ENG_random_communist_minister_13\r\nrecruit_character = ENG_random_communist_minister_12\r\nrecruit_character = ENG_random_communist_minister_11\r\nrecruit_character = ENG_random_communist_minister_10\r\nrecruit_character = ENG_mary_sophia_allen\r\nrecruit_character = ENG_philip_kerr\r\nrecruit_character = ENG_sylvia_pankhurst\r\nrecruit_character = ENG_stewart_menzies\r\nrecruit_character = ENG_maxwell_aitken\r\nrecruit_character = ENG_thomas_moore\r\nrecruit_character = ENG_john_cockcroft\r\nrecruit_character = ENG_charles_goodeve\r\nrecruit_character = ENG_nevil_shute\r\nrecruit_character = ENG_robert_watson_watt\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Thunder at Our Gates\u0022\r\n    }\r\n    recruit_character = ENG_robert_menzies\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Graveyard of Empires\u0022\r\n    }\r\n    recruit_character = ENG_jack_churchill\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022La Resistance\u0022\r\n    }\r\n    create_operative_leader = {\r\n        name = \u0022Nancy Wake\u0022\r\n        GFX = GFX_portrait_nancy_wake\r\n        traits = { operative_escape_artist }\r\n        bypass_recruitment = no\r\n        available_to_spy_master = yes\r\n        female = yes\r\n        nationalities = { ENG }\r\n    }\r\n    create_operative_leader = {\r\n        name = \u0022Diana Rowden\u0022\r\n        GFX = GFX_portrait_diana_rowden\r\n        traits = {\r\n        }\r\n        bypass_recruitment = no\r\n        available_to_spy_master = yes\r\n        female = yes\r\n        nationalities = { ENG }\r\n    }\r\n    create_operative_leader = {\r\n        name = \u0022Juan Pujol\u0022\r\n        GFX = GFX_portrait_juan_pujol\r\n        traits = { operative_double_agent }\r\n        bypass_recruitment = no\r\n        available_to_spy_master = yes\r\n        nationalities = { ENG GER }\r\n    }\r\n    create_operative_leader = {\r\n        name = \u0022Dusko Popov\u0022\r\n        GFX = GFX_portrait_dusko_popov\r\n        traits = { operative_double_agent }\r\n        bypass_recruitment = no\r\n        available_to_spy_master = yes\r\n        nationalities = { ENG GER YUG }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        not = {\r\n            has_dlc = \u0022Man the Guns\u0022\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022O/P/R Class\u0022\r\n        type = submarine_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            sub_engine_upgrade = 2\r\n            sub_stealth_upgrade = 2\r\n            sub_torpedo_upgrade = 3\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022S Class\u0022\r\n        type = submarine_1\r\n        parent_version = 1\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 2\r\n            sub_engine_upgrade = 0\r\n            sub_stealth_upgrade = 2\r\n            sub_torpedo_upgrade = 3\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022A/B/C/D Class\u0022\r\n        type = destroyer_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        upgrades = {\r\n            ship_torpedo_upgrade = 1\r\n            destroyer_engine_upgrade = 3\r\n            ship_ASW_upgrade = 2\r\n            ship_anti_air_upgrade = 1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Emerald Class\u0022\r\n        type = light_cruiser_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            ship_engine_upgrade = 3\r\n            ship_gun_upgrade = 2\r\n            ship_anti_air_upgrade = 3\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Amphion Class\u0022\r\n        type = light_cruiser_1\r\n        parent_version = 1\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            ship_engine_upgrade = 3\r\n            ship_gun_upgrade = 3\r\n            ship_anti_air_upgrade = 3\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022County Class\u0022\r\n        type = heavy_cruiser_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 2\r\n            ship_engine_upgrade = 3\r\n            ship_armor_upgrade = 3\r\n            ship_gun_upgrade = 3\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_heavy_cruiser_australia\r\n                model = commonwealth_gfx_heavy_cruiser_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Admiral Class\u0022\r\n        type = battle_cruiser_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            ship_engine_upgrade = 2\r\n            ship_armor_upgrade = 3\r\n            ship_gun_upgrade = 2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Nelson Class\u0022\r\n        type = battleship_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            ship_engine_upgrade = 2\r\n            ship_armor_upgrade = 3\r\n            ship_gun_upgrade = 3\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Queen Elizabeth Class\u0022\r\n        type = battleship_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 1\r\n            ship_engine_upgrade = 2\r\n            ship_armor_upgrade = 1\r\n        }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Light Tank Mk. IV\u0022\r\n        type = light_tank_chassis_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_vauxhall_organization\r\n        show_position = no\r\n        modules = {\r\n            main_armament_slot = tank_heavy_machine_gun\r\n            turret_type_slot = tank_light_one_man_tank_turret\r\n            suspension_type_slot = tank_christie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n        }\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 2\r\n            tank_nsb_armor_upgrade = 1\r\n        }\r\n        icon = GFX_ENG_basic_light_tank_medium\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Light Tank Mk. VI\u0022\r\n        type = light_tank_chassis_1\r\n        parent_version = 1\r\n        design_team = mio:ENG_vauxhall_organization\r\n        show_position = no\r\n        modules = {\r\n            main_armament_slot = tank_heavy_machine_gun\r\n            turret_type_slot = tank_light_two_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n            special_type_slot_1 = tank_radio_1\r\n            special_type_slot_2 = smoke_launchers\r\n        }\r\n        icon = GFX_ENG_basic_light_tank_medium\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 2\r\n            tank_nsb_armor_upgrade = 2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Medium Mk. II\u0022\r\n        type = medium_tank_chassis_0\r\n        design_team = mio:ENG_vickers_armstrong_eng_organization\r\n        parent_version = 0\r\n        show_position = no\r\n        modules = {\r\n            main_armament_slot = tank_small_cannon\r\n            turret_type_slot = tank_medium_three_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n            special_type_slot_1 = tank_radio_1\r\n        }\r\n        upgrades = {\r\n            tank_nsb_armor_upgrade = 1\r\n            tank_nsb_engine_upgrade = 2\r\n        }\r\n        icon = GFX_ENG_basic_light_tank_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Vickers 6 ton A\u0022\r\n        type = light_tank_chassis_0\r\n        parent_version = 0\r\n        design_team = mio:ENG_vauxhall_organization\r\n        modules = {\r\n            main_armament_slot = tank_heavy_machine_gun\r\n            turret_type_slot = tank_light_one_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n            special_type_slot_1 = secondary_turret_hmg\r\n        }\r\n        upgrades = {\r\n            tank_nsb_armor_upgrade = 3\r\n            tank_nsb_engine_upgrade = 2\r\n        }\r\n        icon = GFX_ENG_light_BAB_camo\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Vickers 6 ton B\u0022\r\n        type = light_tank_chassis_0\r\n        parent_version = 1\r\n        design_team = mio:ENG_vauxhall_organization\r\n        modules = {\r\n            main_armament_slot = tank_small_cannon\r\n            turret_type_slot = tank_light_two_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n        }\r\n        upgrades = {\r\n            tank_nsb_armor_upgrade = 3\r\n            tank_nsb_engine_upgrade = 2\r\n        }\r\n        icon = GFX_ENG_light_BAB_camo\r\n        obsolete = yes\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022O/P/R Class\u0022\r\n        type = ship_hull_submarine_1\r\n        name_group = ENG_SS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_torpedo_slot = ship_torpedo_sub_1\r\n            fixed_ship_engine_slot = sub_ship_engine_2\r\n            rear_1_custom_slot = empty\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022S Class\u0022\r\n        type = ship_hull_submarine_1\r\n        name_group = ENG_SS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_torpedo_slot = ship_torpedo_sub_1\r\n            fixed_ship_engine_slot = sub_ship_engine_1\r\n            rear_1_custom_slot = ship_torpedo_sub_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022A/B/C/D Class\u0022\r\n        type = ship_hull_light_1\r\n        name_group = ENG_DD_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_2\r\n            fixed_ship_anti_air_slot = empty\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = ship_sonar_1\r\n            fixed_ship_engine_slot = light_ship_engine_2\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = ship_depth_charge_1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022E/F/G/H Class\u0022\r\n        type = ship_hull_light_2\r\n        name_group = ENG_DD_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = ship_sonar_1\r\n            fixed_ship_engine_slot = light_ship_engine_2\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = ship_depth_charge_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022V/W Class\u0022\r\n        type = ship_hull_light_1\r\n        name_group = ENG_DD_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = light_ship_engine_1\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            mid_1_custom_slot = empty\r\n            rear_1_custom_slot = ship_depth_charge_1\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_destroyer_vampire\r\n                model = commonwealth_gfx_destroyer_1_entity\r\n            }\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022S Class\u0022\r\n        type = ship_hull_light_1\r\n        name_group = ENG_DD_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_battery_1\r\n            fixed_ship_anti_air_slot = empty\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = light_ship_engine_1\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            mid_1_custom_slot = empty\r\n            rear_1_custom_slot = ship_depth_charge_1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = C-Class\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = empty\r\n            rear_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Danae Class\u0022\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Emerald Class\u0022\r\n        type = ship_hull_cruiser_2\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = ship_light_medium_battery_1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Leander Class\u0022\r\n        type = ship_hull_cruiser_2\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            front_1_custom_slot = empty\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = ship_airplane_launcher_1\r\n            rear_1_custom_slot = ship_light_medium_battery_2\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_light_cruiser_hobart\r\n                model = commonwealth_gfx_light_cruiser_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Adventure Class\u0022\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_MINELAYERS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_armor_slot = empty\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            mid_1_custom_slot = ship_mine_layer_1\r\n            mid_2_custom_slot = ship_mine_layer_1\r\n            rear_1_custom_slot = ship_mine_layer_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Town Class\u0022\r\n        type = ship_hull_cruiser_2\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            front_1_custom_slot = ship_anti_air_2\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = ship_secondaries_2\r\n            rear_1_custom_slot = ship_light_medium_battery_2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022County Class\u0022\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_CA_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_medium_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = ship_airplane_launcher_1\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = ship_medium_battery_2\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_heavy_cruiser_australia\r\n                model = commonwealth_gfx_heavy_cruiser_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022York Class\u0022\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_CA_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_medium_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = empty\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = ship_airplane_launcher_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Hawkins Class\u0022\r\n        type = ship_hull_cruiser_1\r\n        name_group = ENG_CA_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_medium_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = ship_secondaries_1\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Renown Class\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BC_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            fixed_ship_armor_slot = ship_armor_bc_1\r\n            front_1_custom_slot = ship_anti_air_1\r\n            mid_1_custom_slot = ship_airplane_launcher_1\r\n            mid_2_custom_slot = ship_secondaries_1\r\n            rear_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Admiral Class\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BC_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            fixed_ship_armor_slot = ship_armor_bc_2\r\n            front_1_custom_slot = ship_anti_air_1\r\n            mid_1_custom_slot = empty\r\n            mid_2_custom_slot = ship_secondaries_1\r\n            rear_1_custom_slot = ship_heavy_battery_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022G3 Design\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BC_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = ship_secondaries_2\r\n            fixed_ship_armor_slot = ship_armor_bc_2\r\n            front_1_custom_slot = ship_heavy_battery_2\r\n            mid_1_custom_slot = dp_ship_secondaries_1\r\n            mid_2_custom_slot = ship_anti_air_1\r\n            rear_1_custom_slot = empty\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Erebus Class\u0022\r\n        type = ship_hull_cruiser_coastal_defense_ship\r\n        name_group = ENG_BM_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = empty\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_secondaries_slot = empty\r\n            fixed_ship_armor_slot = ship_armor_cruiser_2\r\n            mid_1_custom_slot = empty\r\n            mid_2_custom_slot = empty\r\n            rear_1_custom_slot = empty\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_heavy_cruiser_erebus\r\n                model = commonwealth_gfx_heavy_cruiser_2_entity\r\n            }\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Nelson Class\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BB_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_1\r\n            fixed_ship_secondaries_slot = ship_secondaries_2\r\n            fixed_ship_armor_slot = ship_armor_bb_2\r\n            front_1_custom_slot = ship_heavy_battery_2\r\n            mid_1_custom_slot = dp_ship_secondaries_1\r\n            mid_2_custom_slot = empty\r\n            rear_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Queen Elizabeth Class\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BB_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            fixed_ship_armor_slot = ship_armor_bb_1\r\n            front_1_custom_slot = empty\r\n            mid_1_custom_slot = ship_airplane_launcher_1\r\n            mid_2_custom_slot = ship_secondaries_1\r\n            rear_1_custom_slot = ship_heavy_battery_1\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_battleship_warspite\r\n                model = commonwealth_gfx_battleship_entity\r\n            }\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Revenge Class\u0022\r\n        type = ship_hull_heavy_1\r\n        name_group = ENG_BB_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_1\r\n            fixed_ship_secondaries_slot = ship_secondaries_1\r\n            fixed_ship_armor_slot = ship_armor_bb_1\r\n            front_1_custom_slot = empty\r\n            mid_1_custom_slot = empty\r\n            mid_2_custom_slot = ship_secondaries_1\r\n            rear_1_custom_slot = ship_heavy_battery_1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Eagle Class\u0022\r\n        type = ship_hull_carrier_conversion_bb\r\n        name_group = ENG_CV_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_deck_slot_1 = ship_deck_space\r\n            fixed_ship_deck_slot_2 = ship_deck_space\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Hermes Class\u0022\r\n        type = ship_hull_carrier_conversion_ca\r\n        name_group = ENG_CVL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_deck_slot_1 = ship_deck_space\r\n            fixed_ship_deck_slot_2 = empty\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_secondaries_slot = ship_secondaries_1\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Courageous Class\u0022\r\n        type = ship_hull_carrier_conversion_bb\r\n        name_group = ENG_CV_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_deck_slot_1 = ship_deck_space\r\n            fixed_ship_deck_slot_2 = ship_deck_space\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_1\r\n            mid_1_custom_slot = ship_deck_space\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Ark Royal Class\u0022\r\n        type = ship_hull_carrier_1\r\n        name_group = ENG_CV_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_deck_slot_1 = ship_deck_space\r\n            fixed_ship_deck_slot_2 = ship_deck_space\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = carrier_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            front_1_custom_slot = ship_deck_space\r\n        }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022By Blood Alone\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Hawker Fury\u0022\r\n        type = small_plane_airframe_0\r\n        design_team = mio:ENG_supermarine_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_2x\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Hawker Nimrod\u0022\r\n        type = cv_small_plane_airframe_0\r\n        design_team = mio:ENG_supermarine_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_2x\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Gloster Gladiator\u0022\r\n        type = small_plane_airframe_0\r\n        design_team = mio:ENG_supermarine_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_4x\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Fairey Gordon\u0022\r\n        type = small_plane_cas_airframe_0\r\n        design_team = mio:ENG_hawker_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = bomb_locks\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        obsolete = yes\r\n        icon = GFX_ENG_CAS1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Vickers Vildebeest\u0022\r\n        type = small_plane_naval_bomber_airframe_0\r\n        design_team = mio:ENG_fairey_aviation_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = torpedo_mounting\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_naval_bomber1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Blackburn Shark\u0022\r\n        type = cv_small_plane_naval_bomber_airframe_0\r\n        design_team = mio:ENG_fairey_aviation_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = torpedo_mounting\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_naval_bomber1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Handley Page Heyford\u0022\r\n        type = medium_plane_airframe_0\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = medium_bomb_bay\r\n            engine_type_slot = engine_1_2x\r\n            special_type_slot_1 = empty\r\n        }\r\n        obsolete = yes\r\n        icon = GFX_ENG_early_bomber_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Bristol Blenheim\u0022\r\n        type = medium_plane_airframe_1\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = medium_bomb_bay\r\n            engine_type_slot = engine_2_2x\r\n            special_type_slot_1 = lmg_defense_turret\r\n        }\r\n        icon = GFX_ENG_heavy_fighter1_medium\r\n    }\r\n}",
+      "DatedHistory": [
+        {
+          "Date": "1939.1.1",
+          "Effects": "add_political_power = 1198\r\nadd_command_power = 100\r\nadd_ideas = { ENG_ernest_bevin bernard_montgomery rsaf_enfield archibald_wavell charles_portal english_electric partial_economic_mobilisation limited_conscription ENG_george_vi }\r\nrecruit_character = ENG_neville_chamberlain\r\npromote_character = ENG_neville_chamberlain\r\nretire_character = ENG_stanley_baldwin\r\nremove_ideas = george_v\r\ncomplete_national_focus = limited_rearmament_focus\r\ncomplete_national_focus = air_defense_focus\r\ncomplete_national_focus = radar_focus\r\ncomplete_national_focus = shadow_scheme_focus\r\ncomplete_national_focus = uk_empire_focus\r\ncomplete_national_focus = uk_service_focus\r\ncomplete_national_focus = uk_colonial_focus\r\ncomplete_national_focus = uk_mediterranean_focus\r\ncomplete_national_focus = uk_asia_focus\r\ncomplete_national_focus = uk_commonwealth_focus\r\ncomplete_national_focus = uk_industrial_focus\r\ncomplete_national_focus = ENG_vickers_experimental_facility_focus\r\ncomplete_national_focus = ENG_steady_as_she_goes\r\ngive_guarantee = POL\r\nif = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022No Step Back\u0022\r\n        }\r\n    }\r\n    set_oob = ENG_1939\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    set_oob = ENG_1939_nsb\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    set_naval_oob = ENG_1939_Naval\r\n    else = {\r\n        set_naval_oob = ENG_1939_Naval_Legacy\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022By Blood Alone\u0022\r\n    }\r\n    set_air_oob = ENG_1939_air_bba\r\n    set_technology = {\r\n        basic_small_airframe = 1\r\n        improved_small_airframe = 1\r\n        basic_medium_airframe = 1\r\n        basic_large_airframe = 1\r\n        aa_cannon_1 = 1\r\n        engines_3 = 1\r\n        range_improvements = 1\r\n        air_torpedoe_1 = 1\r\n    }\r\n    else = {\r\n        set_air_oob = ENG_1939_air_legacy\r\n        set_technology = {\r\n            fighter1 = 1\r\n            fighter2 = 1\r\n            heavy_fighter1 = 1\r\n            heavy_fighter2 = 1\r\n            CAS2 = 1\r\n            naval_bomber2 = 1\r\n            tactical_bomber1 = 1\r\n            tactical_bomber2 = 1\r\n            strategic_bomber1 = 1\r\n            cv_CAS1 = 1\r\n            cv_fighter1 = 1\r\n        }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = Gotterdammerung\r\n        has_guaranteed = BEL\r\n    }\r\n    diplomatic_relation = {\r\n        country = BEL\r\n        relation = guarantee\r\n        active = no\r\n    }\r\n}\r\ncomplete_special_project = {\r\n    project = sp:sp_naval_torpedo_cruiser\r\n    scientist = ENG_charles_goodeve\r\n    state = 127\r\n}\r\nset_technology = {\r\n    interwar_artillery = 1\r\n    interwar_antitank = 1\r\n    infantry_weapons2 = 1\r\n    support_weapons = 1\r\n    support_weapons2 = 1\r\n    electronic_mechanical_engineering = 1\r\n    radio = 1\r\n    cavity_magnatron = 1\r\n    centimetric_radar = 1\r\n    mechanical_computing = 1\r\n    computing_machine = 1\r\n    basic_encryption = 1\r\n    basic_decryption = 1\r\n    basic_machine_tools = 1\r\n    improved_machine_tools = 1\r\n    advanced_machine_tools = 1\r\n    synth_oil_experiments = 1\r\n    oil_processing = 1\r\n    fuel_refining2 = 1\r\n    construction1 = 1\r\n    construction2 = 1\r\n    construction3 = 1\r\n    dispersed_industry = 1\r\n    dispersed_industry2 = 1\r\n    dispersed_industry3 = 1\r\n}\r\nset_grand_doctrine = grand_battleplan\r\nset_grand_doctrine = new_fleet_in_being\r\nset_grand_doctrine = new_strategic_destruction\r\nset_sub_doctrine = defensive_postures\r\nadd_mastery = {\r\n    amount = 100\r\n    sub_doctrine = defensive_postures\r\n}\r\nset_sub_doctrine = grand_assault\r\nadd_mastery = {\r\n    amount = 50\r\n    sub_doctrine = grand_assault\r\n}\r\nset_sub_doctrine = convoy_escort\r\nadd_mastery = {\r\n    amount = 100\r\n    sub_doctrine = convoy_escort\r\n}\r\nset_sub_doctrine = line_of_battle\r\nadd_mastery = {\r\n    amount = 50\r\n    sub_doctrine = line_of_battle\r\n}\r\nset_sub_doctrine = floating_airfields\r\nadd_mastery = {\r\n    amount = 25\r\n    sub_doctrine = floating_airfields\r\n}\r\nset_sub_doctrine = air_subdoctrine_dogfighting_mastery\r\nadd_mastery = {\r\n    amount = 75\r\n    sub_doctrine = air_subdoctrine_dogfighting_mastery\r\n}\r\nset_sub_doctrine = air_subdoctrine_flying_artillery\r\nadd_mastery = {\r\n    amount = 25\r\n    sub_doctrine = air_subdoctrine_flying_artillery\r\n}\r\nif = {\r\n    limit = {\r\n        NOT = {\r\n            has_dlc = \u0022No Step Back\u0022\r\n        }\r\n    }\r\n    set_technology = {\r\n        improved_light_tank = 1\r\n        basic_medium_tank = 1\r\n        basic_heavy_tank = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    set_technology = {\r\n        improved_light_tank_chassis = 1\r\n        basic_medium_tank_chassis = 1\r\n        basic_heavy_tank_chassis = 1\r\n        armor_tech_1 = 1\r\n        engine_tech_1 = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        not = {\r\n            has_dlc = \u0022Man the Guns\u0022\r\n        }\r\n    }\r\n    set_technology = {\r\n        basic_submarine = 1\r\n        improved_submarine = 1\r\n        improved_destroyer = 1\r\n        basic_light_cruiser = 1\r\n        improved_light_cruiser = 1\r\n        basic_battleship = 1\r\n        basic_carrier = 1\r\n        improved_carrier = 1\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    set_technology = {\r\n        basic_ship_hull_submarine = 1\r\n        improved_ship_hull_submarine = 1\r\n        improved_ship_hull_light = 1\r\n        improved_ship_hull_cruiser = 1\r\n        basic_ship_hull_heavy = 1\r\n        improved_ship_hull_carrier = 1\r\n        advanced_dp_light_battery = 1\r\n        improved_sonar = 1\r\n    }\r\n    remove_ideas = MTG_naval_treaty_adherent\r\n    add_ideas = MTG_naval_treaty_adherent_reduced\r\n    clr_global_flag = MTG_second_london_conference\r\n    modify_global_flag = {\r\n        flag = MTG_naval_treaty_signatories\r\n        value = -2\r\n    }\r\n}\r\nset_convoys = 200\r\nif = {\r\n    limit = {\r\n        not = {\r\n            has_dlc = \u0022Man the Guns\u0022\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Tribal Class\u0022\r\n        type = destroyer_2\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        upgrades = {\r\n            ship_torpedo_upgrade = 2\r\n            destroyer_engine_upgrade = 2\r\n            ship_ASW_upgrade = 2\r\n            ship_anti_air_upgrade = 2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Edinburgh Class\u0022\r\n        type = light_cruiser_2\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        upgrades = {\r\n            ship_reliability_upgrade = 3\r\n            ship_engine_upgrade = 3\r\n            ship_gun_upgrade = 3\r\n            ship_anti_air_upgrade = 3\r\n        }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022Man the Guns\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Illustrious Class\u0022\r\n        type = ship_hull_carrier_2\r\n        name_group = ENG_CV_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_deck_slot_1 = ship_deck_space\r\n            fixed_ship_deck_slot_2 = ship_deck_space\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = carrier_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_2\r\n            front_1_custom_slot = ship_deck_space\r\n            mid_1_custom_slot = ship_armor_carrier_deck\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_carrier_illustrious\r\n                model = commonwealth_gfx_carrier_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Dido Class\u0022\r\n        type = ship_hull_cruiser_2\r\n        name_group = ENG_CLAA_HISTORICAL\r\n        parent_version = 1\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_3\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_1\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_3\r\n            front_1_custom_slot = empty\r\n            mid_1_custom_slot = ship_anti_air_1\r\n            mid_2_custom_slot = ship_torpedo_1\r\n            rear_1_custom_slot = dp_light_battery_3\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_light_cruiser_dido\r\n                model = commonwealth_gfx_light_cruiser_1_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Crown Colony Class\u0022\r\n        type = ship_hull_cruiser_3\r\n        name_group = ENG_CL_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_light_medium_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_2\r\n            fixed_ship_armor_slot = ship_armor_cruiser_2\r\n            front_1_custom_slot = ship_anti_air_1\r\n            mid_1_custom_slot = ship_torpedo_1\r\n            mid_2_custom_slot = dp_ship_secondaries_2\r\n            rear_1_custom_slot = ship_light_medium_battery_2\r\n            rear_2_custom_slot = ship_anti_air_1\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Tribal Class\u0022\r\n        type = ship_hull_light_2\r\n        name_group = ENG_DD_HISTORICAL\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = ship_sonar_2\r\n            fixed_ship_engine_slot = light_ship_engine_2\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            mid_1_custom_slot = ship_light_battery_2\r\n            rear_1_custom_slot = ship_depth_charge_2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022J/K/N Class\u0022\r\n        type = ship_hull_light_3\r\n        name_group = ENG_DD_HISTORICAL\r\n        design_team = mio:ENG_yarrow_shipbuilders_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = dp_light_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_1\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_0\r\n            fixed_ship_radar_slot = ship_sonar_2\r\n            fixed_ship_engine_slot = light_ship_engine_2\r\n            fixed_ship_torpedo_slot = ship_torpedo_1\r\n            front_1_custom_slot = empty\r\n            mid_1_custom_slot = ship_torpedo_2\r\n            rear_1_custom_slot = ship_depth_charge_2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022King George V Class\u0022\r\n        type = ship_hull_heavy_2\r\n        name_group = ENG_BB_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_2\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_2\r\n            fixed_ship_radar_slot = ship_radar_2\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_3\r\n            fixed_ship_armor_slot = ship_armor_bb_2\r\n            front_1_custom_slot = ship_anti_air_2\r\n            mid_1_custom_slot = ship_airplane_launcher_1\r\n            mid_2_custom_slot = dp_ship_secondaries_3\r\n            rear_1_custom_slot = ship_heavy_battery_2\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Lion Class\u0022\r\n        type = ship_hull_heavy_2\r\n        name_group = ENG_BB_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_cammell_laird_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_3\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_2\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = heavy_ship_engine_2\r\n            fixed_ship_secondaries_slot = dp_ship_secondaries_3\r\n            fixed_ship_armor_slot = ship_armor_bb_2\r\n            front_1_custom_slot = ship_anti_air_1\r\n            mid_1_custom_slot = ship_airplane_launcher_1\r\n            mid_2_custom_slot = dp_ship_secondaries_3\r\n            rear_1_custom_slot = ship_heavy_battery_3\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Erebus Class\u0022\r\n        type = ship_hull_cruiser_coastal_defense_ship\r\n        name_group = ENG_BM_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_harland_wolff_organization\r\n        modules = {\r\n            fixed_ship_battery_slot = ship_heavy_battery_1\r\n            fixed_ship_anti_air_slot = ship_anti_air_2\r\n            fixed_ship_fire_control_system_slot = ship_fire_control_system_1\r\n            fixed_ship_radar_slot = empty\r\n            fixed_ship_engine_slot = cruiser_ship_engine_1\r\n            fixed_ship_secondaries_slot = ship_secondaries_1\r\n            fixed_ship_armor_slot = ship_armor_cruiser_2\r\n            mid_1_custom_slot = empty\r\n            mid_2_custom_slot = empty\r\n            rear_1_custom_slot = empty\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_heavy_cruiser_erebus\r\n                model = commonwealth_gfx_heavy_cruiser_2_entity\r\n            }\r\n        }\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022T Class\u0022\r\n        type = ship_hull_submarine_2\r\n        name_group = ENG_SS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_torpedo_slot = ship_torpedo_sub_2\r\n            fixed_ship_engine_slot = sub_ship_engine_2\r\n            rear_1_custom_slot = empty\r\n        }\r\n        optional_assets = {\r\n            {\r\n                icon = GFX_commonwealth_submarine_trenchant\r\n                model = commonwealth_gfx_submarine_entity\r\n            }\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Grampus Class\u0022\r\n        type = ship_hull_submarine_2\r\n        name_group = ENG_SS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_torpedo_slot = ship_torpedo_sub_2\r\n            fixed_ship_engine_slot = sub_ship_engine_2\r\n            rear_1_custom_slot = ship_mine_layer_sub\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022U Class\u0022\r\n        type = ship_hull_submarine_1\r\n        name_group = ENG_SS_HISTORICAL\r\n        parent_version = 0\r\n        design_team = mio:ENG_john_brown_organization\r\n        modules = {\r\n            fixed_ship_torpedo_slot = ship_torpedo_sub_2\r\n            fixed_ship_engine_slot = sub_ship_engine_2\r\n            rear_1_custom_slot = empty\r\n        }\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022No Step Back\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Matilda I\u0022\r\n        type = light_tank_chassis_2\r\n        parent_version = 0\r\n        modules = {\r\n            main_armament_slot = tank_heavy_machine_gun\r\n            turret_type_slot = tank_light_one_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n        }\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 2\r\n            tank_nsb_armor_upgrade = 6\r\n        }\r\n        icon = GFX_ENG_improved_light_tank_medium\r\n        obsolete = yes\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Matilda II\u0022\r\n        type = heavy_tank_chassis_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_vauxhall_organization\r\n        modules = {\r\n            main_armament_slot = tank_small_cannon_2\r\n            turret_type_slot = tank_heavy_three_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_cast_armor\r\n            engine_type_slot = tank_diesel_engine\r\n            special_type_slot_1 = tank_radio_1\r\n            special_type_slot_2 = smoke_launchers\r\n        }\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 4\r\n            tank_nsb_armor_upgrade = 8\r\n        }\r\n        icon = GFX_ENG_improved_light_tank_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Cruiser Mk. I\u0022\r\n        type = medium_tank_chassis_1\r\n        parent_version = 0\r\n        design_team = mio:ENG_vickers_armstrong_eng_organization\r\n        show_position = no\r\n        modules = {\r\n            main_armament_slot = tank_small_cannon_2\r\n            turret_type_slot = tank_medium_three_man_tank_turret\r\n            suspension_type_slot = tank_bogie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n            special_type_slot_1 = tank_radio_1\r\n            special_type_slot_2 = secondary_turret_hmg\r\n            special_type_slot_3 = secondary_turret_hmg\r\n        }\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 3\r\n            tank_nsb_armor_upgrade = 1\r\n        }\r\n        obsolete = yes\r\n        icon = GFX_ENG_light_CCA_camo\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Cruiser Mk. IV\u0022\r\n        type = medium_tank_chassis_1\r\n        parent_version = 1\r\n        design_team = mio:ENG_vickers_armstrong_eng_organization\r\n        show_position = no\r\n        modules = {\r\n            main_armament_slot = tank_small_cannon_2\r\n            turret_type_slot = tank_medium_three_man_tank_turret\r\n            suspension_type_slot = tank_christie_suspension\r\n            armor_type_slot = tank_riveted_armor\r\n            engine_type_slot = tank_gasoline_engine\r\n            special_type_slot_1 = tank_radio_1\r\n            special_type_slot_2 = smoke_launchers\r\n            special_type_slot_3 = empty\r\n            special_type_slot_4 = empty\r\n        }\r\n        upgrades = {\r\n            tank_nsb_engine_upgrade = 7\r\n            tank_nsb_armor_upgrade = 3\r\n        }\r\n        icon = GFX_ENG_light_CCA_camo\r\n    }\r\n}\r\nif = {\r\n    limit = {\r\n        has_dlc = \u0022By Blood Alone\u0022\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Sea Gladiator\u0022\r\n        type = cv_small_plane_airframe_0\r\n        design_team = mio:ENG_fairey_aviation_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_4x\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Blackburn Skua\u0022\r\n        type = cv_small_plane_cas_airframe_1\r\n        design_team = mio:ENG_fairey_aviation_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = bomb_locks\r\n            fixed_auxiliary_weapon_slot_1 = light_mg_4x\r\n            engine_type_slot = engine_2_1x\r\n            special_type_slot_1 = dive_brakes_small\r\n            special_type_slot_2 = fuel_tanks_small\r\n        }\r\n        icon = GFX_ENG_CAS1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Fairey Swordfish\u0022\r\n        type = cv_small_plane_naval_bomber_airframe_1\r\n        design_team = mio:ENG_fairey_aviation_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = torpedo_mounting\r\n            engine_type_slot = engine_1_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_nav_bomber1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Hawker Hurricane\u0022\r\n        type = small_plane_airframe_1\r\n        design_team = mio:ENG_supermarine_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_4x\r\n            fixed_auxiliary_weapon_slot_1 = light_mg_4x\r\n            engine_type_slot = engine_2_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_fighter1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Supermarine Spitfire\u0022\r\n        type = small_plane_airframe_2\r\n        design_team = mio:ENG_supermarine_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_4x\r\n            fixed_auxiliary_weapon_slot_1 = light_mg_4x\r\n            engine_type_slot = engine_2_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_fighter2_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Fairey Battle\u0022\r\n        type = small_plane_cas_airframe_1\r\n        design_team = mio:ENG_hawker_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = small_bomb_bay\r\n            fixed_auxiliary_weapon_slot_1 = bomb_locks\r\n            engine_type_slot = engine_2_1x\r\n            special_type_slot_1 = empty\r\n        }\r\n        icon = GFX_ENG_light_plane_1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Bristol Blenheim IF\u0022\r\n        type = medium_plane_fighter_airframe_1\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = light_mg_4x\r\n            engine_type_slot = engine_2_2x\r\n            special_type_slot_1 = lmg_defense_turret\r\n        }\r\n        icon = GFX_ENG_heavy_fighter1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022HP Hampden\u0022\r\n        type = medium_plane_airframe_1\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = medium_bomb_bay\r\n            fixed_auxiliary_weapon_slot_1 = torpedo_mounting\r\n            engine_type_slot = engine_2_2x\r\n            special_type_slot_1 = lmg_defense_turret\r\n        }\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Vickers Wellington\u0022\r\n        type = medium_plane_airframe_1\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = medium_bomb_bay\r\n            fixed_auxiliary_weapon_slot_1 = medium_bomb_bay\r\n            engine_type_slot = engine_2_2x\r\n            special_type_slot_1 = lmg_defense_turret_2x\r\n            special_type_slot_2 = lmg_defense_turret\r\n        }\r\n        icon = GFX_ENG_tactical_bomber1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022Short Sunderland\u0022\r\n        type = large_plane_maritime_patrol_plane_airframe_1\r\n        design_team = mio:ENG_avro_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = torpedo_mounting\r\n            fixed_auxiliary_weapon_slot_1 = empty\r\n            engine_type_slot = engine_2_4x\r\n            special_type_slot_1 = lmg_defense_turret_2x\r\n            special_type_slot_2 = lmg_defense_turret_2x\r\n            special_type_slot_3 = lmg_defense_turret_2x\r\n            special_type_slot_4 = flying_boat_large\r\n            special_type_slot_5 = self_sealing_fuel_tanks_large\r\n        }\r\n        icon = GFX_ENG_heavy_plane_1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = \u0022HP Halifax\u0022\r\n        type = large_plane_airframe_1\r\n        design_team = mio:ENG_avro_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = large_bomb_bay\r\n            fixed_auxiliary_weapon_slot_1 = large_bomb_bay\r\n            engine_type_slot = engine_3_4x\r\n            special_type_slot_1 = lmg_defense_turret_2x\r\n            special_type_slot_2 = lmg_defense_turret\r\n            special_type_slot_3 = empty\r\n            special_type_slot_4 = empty\r\n            special_type_slot_5 = self_sealing_fuel_tanks_large\r\n        }\r\n        icon = GFX_ENG_strategic_bomber1_medium\r\n    }\r\n    create_equipment_variant = {\r\n        name = Whitley\r\n        type = medium_plane_airframe_0\r\n        design_team = mio:ENG_de_havilland_organization\r\n        modules = {\r\n            fixed_main_weapon_slot = medium_bomb_bay\r\n            engine_type_slot = engine_2_2x\r\n            special_type_slot_1 = lmg_defense_turret_2x\r\n        }\r\n    }\r\n}"
+        }
+      ],
+      "DualLeader": {
+        "Enabled": false,
+        "SuppressGenericFallback": false,
+        "StartHidden": false,
+        "CharacterId": "",
+        "LeaderTitle": "",
+        "CoLeaderTitle": "",
+        "Description": "Shares leadership of the country.",
+        "Modifiers": ""
+      }
     }
   ],
-  "Ideas": [],
-  "NationalSpiritFiles": [],
+  "Ideas": [
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "collapsing_army_ENG",
+      "Name": "Collapsing Army",
+      "Description": "Ever since the Great War, our army has been in terrible shape. Outdated firearms, lack of training and poor combat performance against numerically inferior enemies have made the English Army a laughingstock.",
+      "Picture": "GFX_idea_generic_army_war_college",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "army_attack_factor \u003E -0.20\nland_night_attack \u003E -0.20\nattrition \u003C 0.10\nland_reinforce_rate = -0.05\ncasualty_trickleback = -0.10\ndefence = -0.15\nbreakthrough_factor = -0.20",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": [
+        "ENG"
+      ]
+    },
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "ENG_outdated_navy",
+      "Name": "Outdated Navy",
+      "Description": "Ever since the Great War took down our most feared fleets, the English Fleet has been nothing more than floating scraps held together by hopes and dreams. The fear the Royal NAvy once struck into the hearts of our enemies has now been replaced with contempt.",
+      "Picture": "GFX_idea_generic_coastal_defense_ships2",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "critical_receive_chance = 0.15\nmax_organisation = -0.10\nnaval_detection = -0.10\nnaval_defense_factor = -0.15\nnaval_damage_factor = -0.15\nnaval_accidents_chance = 0.10\nnaval_hit_chance = -0.15\nnaval_retreat_speed = -0.20",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": [
+        "ENG"
+      ]
+    },
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "ENG_grounded_air_force",
+      "Name": "Grounded Air Force",
+      "Description": "During the Great War, airplances became a new method of waging war. While we were able to deploy them effectively against the Germans, our Air Force has not been able to keep up with the world. Lack of funding, development and training have made fielding a capable airforce an impossibility.",
+      "Picture": "GFX_idea_air_war_plans_division_focus",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "air_accidents_factor = 0.10\nair_ace_generation_chance_factor = -0.15\nair_detection = -0.20\nair_mission_efficiency = -0.10\nair_night_penalty = 0.10\nground_attack_factor = -0.15\nair_range_factor = -0.20\nair_mastery_gain_factor = -0.15",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": [
+        "ENG"
+      ]
+    },
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "ENG_non_existent_economy",
+      "Name": "An Economy That Doesn\u0027t Exist?",
+      "Description": "Furing the Great War, we supercharged our economy in order to keep sustaining the war effort. When we lost, our defence companies collapsed, taking the entire market down with them. The Pound is worthless, and our nation has been reduced to the state of nothingness.",
+      "Picture": "GFX_idea_GER_recovering_economy",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "production_speed_buildings_factor = -0.20\nindustrial_capacity_factory = -0.20\nindustrial_capacity_dockyard = -0.20\nconsumer_goods_factor = 0.40\nenergy_gain_factor = -0.10",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": [
+        "ENG"
+      ]
+    },
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "ENG_will_of_people",
+      "Name": "Will of the British People",
+      "Description": "Even through all of the trials, the Great War, the Dark Depression, the failed colonization, the people of Britain remain proud, defiant in the face of disaster. They possess the spark of growth, the desire to make their home better, to secure their place in the world. through them, Britain will stand.",
+      "Picture": "GFX_idea_SWE_the_lion_of_the_north",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "political_power_gain = 0.15\nstability_factor = 0.10\ndemocratic_drift = 0.05\nstability_weekly = 0.0010",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": [
+        "ENG"
+      ]
+    },
+    {
+      "FileName": "england.txt",
+      "ExtraScript": "",
+      "Id": "ENG_national_armed_forces_reform_plan",
+      "Name": "National Armed Forces Reform Plan",
+      "Description": "In order to get the armed forces in working shape, we have to throw and burn the entire system and rebuild it bottom up!",
+      "Picture": "GFX_idea_tur_coordinated_balkan_armed_forces",
+      "PictureSource": "",
+      "Allowed": "always = yes",
+      "Modifier": "experience_gain_air = 0.10\nexperience_gain_army = 0.10\nexperience_gain_navy = 0.10",
+      "OnAdd": "",
+      "OnRemove": "",
+      "RemovalCost": -1,
+      "StartingCountryTags": []
+    }
+  ],
+  "NationalSpiritFiles": [
+    "england.txt"
+  ],
   "Events": [],
   "EventGroups": [],
+  "CollapsedEventGroups": [],
   "SuperEvents": [],
   "DecisionCategories": [],
   "CivilWars": [],
@@ -17980,44 +18798,96 @@
     {
       "StateId": 378,
       "Removed": false,
-      "SuppressDatedCountryHistory": false,
-      "Owner": null,
+      "SuppressDatedCountryHistory": true,
+      "Owner": "FFK",
       "Controller": null,
-      "AddCores": [],
+      "AddCores": [
+        "FFK"
+      ],
       "RemoveCores": [],
       "AddClaims": [],
       "RemoveClaims": [],
-      "Manpower": 56772480,
+      "Manpower": 7772480,
       "Category": null,
       "Buildings": [
-        {
-          "Type": "arms_factory",
-          "Level": 15,
-          "ProvinceId": 0
-        },
-        {
-          "Type": "dockyard",
-          "Level": 9,
-          "ProvinceId": 0
-        },
-        {
-          "Type": "industrial_complex",
-          "Level": 25,
-          "ProvinceId": 0
-        },
         {
           "Type": "infrastructure",
           "Level": 4,
           "ProvinceId": 0
+        },
+        {
+          "Type": "industrial_complex",
+          "Level": 9,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "arms_factory",
+          "Level": 6,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "dockyard",
+          "Level": 5,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "naval_base",
+          "Level": 0,
+          "ProvinceId": 610
         }
       ],
       "VictoryPoints": [],
-      "Resources": [],
+      "Resources": [
+        {
+          "Resource": "steel",
+          "Amount": 50
+        }
+      ],
       "LocalSupplies": null,
       "Impassable": null,
       "DemilitarizedZone": null,
       "AddProvinces": [],
-      "RemoveProvinces": [],
+      "RemoveProvinces": [
+        7986,
+        1562,
+        12374,
+        4727,
+        12303,
+        11763,
+        4518,
+        941,
+        9911,
+        6876,
+        10387,
+        9814,
+        11757,
+        7517,
+        11859,
+        11876,
+        6881,
+        986,
+        3784,
+        3840,
+        6861,
+        9637,
+        4657,
+        7667,
+        1651,
+        1432,
+        823,
+        10483,
+        11795,
+        9855,
+        4331,
+        6665,
+        6482,
+        3644,
+        610,
+        781,
+        3588,
+        10159,
+        11698
+      ],
       "IsEmpty": false
     },
     {
@@ -23821,7 +24691,13 @@
         6742,
         7779,
         12676,
-        4838
+        4838,
+        12553,
+        10625,
+        7721,
+        10305,
+        4826,
+        7865
       ],
       "RemoveProvinces": [],
       "IsEmpty": false
@@ -24092,6 +24968,275 @@
         5015
       ],
       "IsEmpty": false
+    },
+    {
+      "StateId": 1096,
+      "Removed": false,
+      "SuppressDatedCountryHistory": false,
+      "Owner": null,
+      "Controller": null,
+      "AddCores": [
+        "YOK"
+      ],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [
+        {
+          "Type": "industrial_complex",
+          "Level": 3,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "arms_factory",
+          "Level": 2,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "infrastructure",
+          "Level": 3,
+          "ProvinceId": 0
+        }
+      ],
+      "VictoryPoints": [],
+      "Resources": [
+        {
+          "Resource": "aluminium",
+          "Amount": 17
+        },
+        {
+          "Resource": "oil",
+          "Amount": 22
+        }
+      ],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [],
+      "RemoveProvinces": [],
+      "IsEmpty": false
+    },
+    {
+      "StateId": 484,
+      "Removed": false,
+      "SuppressDatedCountryHistory": false,
+      "Owner": null,
+      "Controller": null,
+      "AddCores": [],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [],
+      "VictoryPoints": [],
+      "Resources": [],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [],
+      "RemoveProvinces": [
+        12461,
+        13215
+      ],
+      "IsEmpty": false
+    },
+    {
+      "StateId": 379,
+      "Removed": false,
+      "SuppressDatedCountryHistory": false,
+      "Owner": null,
+      "Controller": null,
+      "AddCores": [],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [],
+      "VictoryPoints": [],
+      "Resources": [],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [
+        4657,
+        7667,
+        1651,
+        4331,
+        6665,
+        6482,
+        3644,
+        610,
+        781,
+        3588,
+        10159,
+        11698
+      ],
+      "RemoveProvinces": [],
+      "IsEmpty": false
+    },
+    {
+      "StateId": 1097,
+      "Removed": false,
+      "SuppressDatedCountryHistory": false,
+      "Owner": null,
+      "Controller": null,
+      "AddCores": [
+        "CMS"
+      ],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [
+        {
+          "Type": "arms_factory",
+          "Level": 1,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "infrastructure",
+          "Level": 4,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "industrial_complex",
+          "Level": 3,
+          "ProvinceId": 0
+        }
+      ],
+      "VictoryPoints": [],
+      "Resources": [
+        {
+          "Resource": "aluminium",
+          "Amount": 14
+        },
+        {
+          "Resource": "oil",
+          "Amount": 19
+        },
+        {
+          "Resource": "steel",
+          "Amount": 18
+        }
+      ],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [],
+      "RemoveProvinces": [],
+      "IsEmpty": false
+    },
+    {
+      "StateId": 1098,
+      "Removed": false,
+      "SuppressDatedCountryHistory": false,
+      "Owner": null,
+      "Controller": null,
+      "AddCores": [],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [
+        {
+          "Type": "arms_factory",
+          "Level": 1,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "infrastructure",
+          "Level": 3,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "dockyard",
+          "Level": 3,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "industrial_complex",
+          "Level": 2,
+          "ProvinceId": 0
+        }
+      ],
+      "VictoryPoints": [],
+      "Resources": [
+        {
+          "Resource": "oil",
+          "Amount": 21
+        },
+        {
+          "Resource": "aluminium",
+          "Amount": 3
+        }
+      ],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [],
+      "RemoveProvinces": [],
+      "IsEmpty": false
+    },
+    {
+      "StateId": 385,
+      "Removed": false,
+      "SuppressDatedCountryHistory": true,
+      "Owner": "XMZ",
+      "Controller": null,
+      "AddCores": [
+        "XMZ"
+      ],
+      "RemoveCores": [],
+      "AddClaims": [],
+      "RemoveClaims": [],
+      "Manpower": null,
+      "Category": null,
+      "Buildings": [
+        {
+          "Type": "industrial_complex",
+          "Level": 4,
+          "ProvinceId": 0
+        },
+        {
+          "Type": "arms_factory",
+          "Level": 1,
+          "ProvinceId": 0
+        }
+      ],
+      "VictoryPoints": [],
+      "Resources": [
+        {
+          "Resource": "aluminium",
+          "Amount": 22
+        },
+        {
+          "Resource": "oil",
+          "Amount": 3
+        },
+        {
+          "Resource": "chromium",
+          "Amount": 6
+        }
+      ],
+      "LocalSupplies": null,
+      "Impassable": null,
+      "DemilitarizedZone": null,
+      "AddProvinces": [],
+      "RemoveProvinces": [
+        12553,
+        10625,
+        7721,
+        10305,
+        4826,
+        7865
+      ],
+      "IsEmpty": false
     }
   ],
   "NewStates": [
@@ -24320,6 +25465,62 @@
         1767,
         6722,
         12566
+      ]
+    },
+    {
+      "Id": 1096,
+      "Name": "Yokut",
+      "Category": "large_town",
+      "Owner": "YOK",
+      "Manpower": 3400001,
+      "Provinces": [
+        7986,
+        1562,
+        12374,
+        12461,
+        13215,
+        4727,
+        12303,
+        11763,
+        4518,
+        941,
+        9911,
+        6876,
+        10387,
+        1432,
+        823,
+        10483,
+        11795
+      ]
+    },
+    {
+      "Id": 1097,
+      "Name": "Chumash",
+      "Category": "rural",
+      "Owner": "CMS",
+      "Manpower": 4501002,
+      "Provinces": [
+        9814,
+        11757,
+        7517,
+        11859,
+        11876,
+        6881,
+        9855
+      ]
+    },
+    {
+      "Id": 1098,
+      "Name": "T\u0027epot\u0027aha\u0027l",
+      "Category": "town",
+      "Owner": "TPT",
+      "Manpower": 230001,
+      "Provinces": [
+        986,
+        3784,
+        3840,
+        6861,
+        9637
       ]
     }
   ],
