@@ -1,0 +1,84 @@
+focus_tree = { 
+
+    id = Kuomintang_focus_2
+    
+    country = { 
+        factor = 0
+    }
+ 
+}
+
+
+
+focus = {
+    id = KMT_focus_A_fragile_alliance
+    icon = GFX_focus_CHI_united_front
+    x = 20
+    y = 0
+    cost = 10
+
+    completion_reward = {
+        add_stability = 0.05
+
+    }
+}
+
+focus = {
+    id = KMT_focus_war_on_monarchy
+    icon = GFX_focus_generic_spur_communist_revolutions
+    relative_position_id = KMT_focus_A_fragile_alliance
+    x = 0
+    y = 2
+    prerequisite = {
+        focus = KMT_focus_A_fragile_alliance
+    }
+    cost = 6
+
+    completion_reward = {
+        add_ideas = KMT_war_on_monarchy
+    }
+}
+
+focus = {
+    id = KMT_focus_funding_the_war_effort
+    icon = GFX_focus_RAJ_war_taxes
+    relative_position_id = KMT_focus_war_on_monarchy
+    x = -10
+    y = 
+    prerequisite = {
+        focus = KMT_focus_war_on_monarchy
+    }
+    cost = 10
+
+    completion_reward = {
+    add_timed_modifier = {
+        modifier = {
+            industrial_capacity_factory = 0.10
+            
+        }
+        days = 365
+    }
+}
+
+}
+
+focus = {
+    id = KMT_focus_establish_the_central_committee
+    icon = GFX_focus_generic_modernize_industry
+    relative_position_id = KMT_focus_funding_the_war_effort
+    x = 0
+    y = -2
+    prerequisite = {
+        focus = KMT_focus_funding_the_war_effort
+    }
+    cost = 5
+
+    completion_reward = {
+        add_political_power = 50
+        add_ideas = KMT_war_industry
+    }
+}
+
+focus = {
+    id = 
+}

@@ -1,0 +1,135 @@
+focus_tree = { 
+
+    id = Kuomintang_focus_tree
+    
+    country = { 
+        factor = 500
+
+        modifier = 
+            add = 10
+            tag = CHI # this tag may be changed
+
+    }
+ 
+}
+
+focus = {
+    KMT_focus_Freedom_at_last
+    icon = gfx_goal_unknown
+    x = 5
+    y = 0
+    cost = 10
+    
+    completion reward = {
+        add_political_power = 150
+
+    }
+}
+
+focus = {
+    KMT_focus_Winning_the_fight
+    icon = gfx_focus_CHI_military_affairs_commission
+    relative_position_id = KMT_focus_Freedom_at_last
+    x = -1
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Freedom_at_last
+    }
+    cost = 5
+    
+    completion reward = {
+        
+
+    }
+}
+
+focus = {
+    id = KMT_focus_Seize_Imperial_caches
+    icon = GFX_goal_generic_small_arms
+    relative_position_id = KMT_focus_Freedom_at_last
+    x = 1
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Freedom_at_last
+    }
+    cost = 5
+    
+    completion_reward = {
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 5000
+        }
+    }
+}
+
+focus = {
+    id = KMT_focus_Emergency_conscription
+    icon = GFX_goal_rhineland 
+    relative_position_id = KMT_focus__Seize_Imperial_caches
+    x = 0
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Seize_Imperial_caches
+    }
+    cost = 5
+
+    completion_reward = {
+        manpower = 5000
+    }
+}
+
+focus = {
+    id = KMT_focus_Sway_the_people
+    icon = GFX_focus_GER_the_peoples_victory
+    relative_position_id = KMT_focus_Winning_the_fight
+    x = 0
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Emergency_conscription
+    }
+    cost = 5
+
+    completion_reward = {
+        manpower = 50000
+        add_war_support = 0.15
+        
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 500
+        }
+    }
+}
+
+focus = {
+    id = KMT_focus_Minzu_Minquan_minsheng
+    icon = GFX_focus_generic_china1
+    relative_position_id = KMT_focus__Sway_the_people
+    x = -1
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Sway_the_people
+    }
+    cost = 5
+
+    completion_reward = {
+        set_ruling_party = communism
+        load_focus_tree = Kuomintang_focus_2
+    }
+}
+
+
+focus = {
+    id = KMT_focus_promise_land_reform
+    icon = gfx_goal_unknown
+    relative_position_id = KMT_focus_Winning_the_fight
+    x = 0
+    y = 1
+    prerequisite = {
+        focus = KMT_focus_Winning_the_fight
+    }
+    cost = 5
+
+    completion_reward = {
+        add_stability = 0.01
+    }
+}
