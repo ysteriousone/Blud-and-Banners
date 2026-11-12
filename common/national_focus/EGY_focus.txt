@@ -1,43 +1,81 @@
-focus_tree = {
-    id = Egypt_focus.txt
-    default = no
-    country = {
-        factor = 10
-        modifier = {
-            add = 1000
+focus_tree = { 
+
+    id = Egypt_focus_tree
+    
+    country = { 
+        factor = 300
+
+        modifier = 
+            add = 10
             tag = EGY
-        }
-        modifier = add
-    }
-    continuous_focus_position = { x = 34 y = 942 }
 
-    focus = {
-        id = Egypt_focus_tree
-        icon = GFX_focus_SWE_neither_death_nor_dishonor
-        x = 20
-        y = 0
-        cost = 10
-        cancel_if_invalid = no
-        completion_reward = {
-            add_stability = -0.10
-        }
-        ai_will_do = {
-            factor = 1
-        }
+    }
+ 
+}
+
+focus = {
+    id = EGY_focus_fuad_is_dead
+    icon = GFX_focus_SWE_neither_death_nor_dishonor
+    x = 20
+    y = 0
+
+   
+}
+
+focus = {
+    id = EGY_what_now
+    icon = gfx_goal_unknown
+    x = 10
+    y = 0
+    cost = 10
+    
+    completion_reward = {
+        EGY = { country_event = egypt_event_ns.1 }
+    }
+}
+
+focus = {
+    id = EGY_focus_a_republic
+    icon = gfx_goal_unknown
+    relative_position_id = EGY_what_now
+    x = -4
+    y = 2
+    cost = 10
+    
+    prerequisite = { focus = EGY_what_now }
+    mutually_exclusive = { focus = EGY_crown_farouk }
+    
+    # This locks the focus entirely until the event choice triggers the flag
+    available = {
+        has_country_flag = EGY_declared_republic
     }
 
-    focus = {
-        id = blood_and_banners_Egypt_focus_tree_focus_2
-        icon = GFX_goal_unknown
-        x = 20
-        y = 1
-        cost = 10
-        prerequisite = { focus = Egypt_focus_tree }
-        completion_reward = {
-            add_political_power = 100
-        }
-        ai_will_do = {
-            factor = 1
-        }
+    completion_reward = {
+        set_ruling_party = democratic
     }
+}
+
+focus = {
+    id = EGY_focus_crown_farouk
+    icon = gfx_goal_unknown
+    relative_position_id = EGY_what_now
+    x = 4
+    y = 2
+    cost = 10
+    
+    prerequisite = { focus = EGY_what_now }
+    mutually_exclusive = { focus = EGY_a_republic }
+    
+    # This locks the focus entirely until the event choice triggers the flag
+    available = {
+        has_country_flag = EGY_crowned_farouk
+    }
+
+    completion_reward = {
+        add_political_power = 100
+    }
+}
+
+focus = {
+    id = EGY_
 }
