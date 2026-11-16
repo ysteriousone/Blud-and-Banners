@@ -1,0 +1,41 @@
+﻿l_english:
+ KMT_focus_Freedom_at_last:0 "Freedom at Last"
+ KMT_focus_Freedom_at_last_desc:0 "After years of struggle and oppression, the dawn of a new era is finally breaking. Our freedom is within our grasp."
+ 
+ KMT_focus_Winning_the_fight:0 "Winning the Fight"
+ KMT_focus_Winning_the_fight_desc:0 "It is not enough to demand freedom; we must fight for it. Military victory is our only path forward."
+ 
+ KMT_focus_Seize_Imperial_caches:0 "Seize Imperial Caches"
+ KMT_focus_Seize_Imperial_caches_desc:0 "The old Empire's storehouses are filled with abandoned equipment. We must secure these weapons to supply our frontline soldiers."
+ 
+ KMT_focus_Emergency_conscription:0 "Emergency Conscription"
+ KMT_focus_Emergency_conscription_desc:0 "The nation is in peril. We must immediately mobilize every able-bodied individual to bolster our military ranks."
+ 
+ KMT_focus_Sway_the_people:0 "Sway the People"
+ KMT_focus_Sway_the_people_desc:0 "Through intensive outreach and promises of a better future, we will unite the masses to support our war effort."
+ 
+ KMT_focus_Minzu_Minquan_minsheng:0 "Minzu, Minquan, Minsheng"
+ KMT_focus_Minzu_Minquan_minsheng_desc:0 "The Three Principles of the People: Nationalism, Democracy, and the Livelihood of the people. They will guide our political transition."
+ 
+ KMT_focus_promise_land_reform:0 "Promise Land Reform"
+ KMT_focus_promise_land_reform_desc:0 "The land belongs to those who cultivate it. By promising to redistribute large estates, we secure the crucial backing of the peasantry."
+
+ # Second Tree: Kuomintang_focus_2
+ KMT_focus_A_fragile_alliance:0 "A Fragile Alliance"
+ KMT_focus_A_fragile_alliance_desc:0 "Circumstances force us to work with former rivals. We must hope this united front holds strong under the weight of the coming storm."
+ 
+ KMT_focus_war_on_monarchy:0 "War on Monarchy"
+ KMT_focus_war_on_monarchy_desc:0 "The remnants of the old feudal regime must be permanently dismantled. Our revolution will tolerate no return to royal rule."
+ 
+ KMT_focus_funding_the_war_effort:0 "Funding the War Effort"
+ KMT_focus_funding_the_war_effort_desc:0 "War is costly. Through emergency taxation and economic restructuring, we will channel all capital into our industrial production."
+ 
+ KMT_focus_establish_the_central_committee:0 "Establish the Central Committee"
+ KMT_focus_establish_the_central_committee_desc:0 "To centralize our leadership and plan our next operations efficiently, we are establishing a rigid and dedicated Central Committee."
+
+ # National Ideas
+ KMT_war_on_monarchy:0 "War on Monarchy"
+ KMT_war_on_monarchy_desc:0 "Our nation is entirely dedicated to routing the remnants of the monarchy. Every citizen stands ready to fight against any autocratic regressive threat."
+
+ KMT_war_industry:0 "KMT War Industry"
+ KMT_war_industry_desc:0 "The consolidation of our factory complex under direct military oversight maximizes military factory throughput, but sacrifices consumer comfort and drafting numbers."
