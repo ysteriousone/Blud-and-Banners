@@ -1,0 +1,102 @@
+focus_tree = {
+    id = Ming_focus_1
+
+    country = {
+        factor = 10
+
+        modifier = {
+            add = 10
+            tag = MNG
+        }
+    }
+}
+
+focus = {
+    id = MNG_focus_Resolve_the_crisis_of_1934
+    icon = gfx_goal_unknown
+    x = 5
+    y = 0
+    cost = 5
+
+    completion_reward = {
+        MNG = { country_event = ming_event_ns.1 }
+    }
+}
+
+focus = {
+    id = MNG_focus_strenghten_xhu_yuxung
+    icon = gfx_goal_unknown
+    relative_position_id = MNG_focus_Resolve_the_crisis_of_1934
+    x = 0 
+    y = 2
+    cost = 5
+
+    prerequisite = MNG_focus_Resolve_the_crisis_of_1934
+
+    completion_reward = {
+        add_political_power = 100
+    }
+}
+
+focus = {
+    id = MNG_focus_anti_corruption_efforts
+    icon = gfx_goal_unknown
+    relative_position_id = MNG_focus_strenghten_xhu_yuxung
+    x = 0
+    y = 2
+    cost = 5
+
+    prerequisite = MNG_focus_strenghten_xhu_yuxung
+
+    completion_reward = {
+        add_stability = 0.10
+    }
+}
+
+focus = {
+    id = MNG_focus_ensure_loyalty_of_political_officers
+    icon = GFX_focus_generic_military_mission
+    relative_position_id = MNG_focus_anti_corruption_efforts
+    x = 2
+    y = 2
+    cost = 5
+    
+    prerequisite = MNG_focus_anti_corruption_efforts
+
+    completion_reward = {
+        add_stability = 0.05
+        add_political_power = 25
+    }
+
+}
+
+focus = {
+    id = MNG_focus_establish_the_secret_police
+    icon = GFX_focus_generic_secret_service_agency
+    relative_position_id = MNG_focus_ensure_loyalty_of_political_officers
+    x = 2
+    y = 2
+    cost = 5
+
+    prerequisite = MNG_focus_ensure_loyalty_of_political_officers
+
+    completion_reward = {
+        create_intelligence_agency = yes
+    }
+
+}
+
+focus = {
+    id = MNG_focus_root_out_nepotism
+    icon = GFX_focus_ARG_crackdown_on_corruption
+    relative_position_id = MNG_focus_anti_corruption_efforts
+    x = -2
+    y = 2
+    cost = 5
+
+    prerequisite = MNG_focus_anti_corruption_efforts
+
+    completion_reward = {
+        MNG = { country_event = ming_event.ns.2 }
+    }
+}
